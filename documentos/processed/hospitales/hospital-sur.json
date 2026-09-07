@@ -1,0 +1,145 @@
+{
+  "documento": {
+    "familia": "hospitales",
+    "archivo": "hospital-sur.md",
+    "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+    "hash": "sha256:63292ac56f1132b0",
+    "frontmatter": {
+      "hospital_id": "sur",
+      "nombre": "Hospital Sur",
+      "distrito": "Sur",
+      "nivel": "secundario",
+      "version": "2026-01"
+    },
+    "generado": "2026-09-07T02:17:00.035Z"
+  },
+  "total": 5,
+  "embeddingsPendientes": 5,
+  "chunks": [
+    {
+      "id": "hospital-sur-general",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "sur",
+        "hospital": "Hospital Sur",
+        "distrito": "Sur",
+        "nivel": "secundario"
+      },
+      "contenido": "Hospital Sur, distrito Sur, centro de nivel secundario. El Hospital Sur es un centro secundario situado en el distrito Sur, en la avenida Meridional 8. Es el centro mas economico de la red y atiende principalmente poblacion del sur de la ciudad. El servicio de urgencias atiende de 7:00 a 19:00. Fuera de ese horario el centro permanece cerrado y las urgencias se derivan al Hospital Central o a la Clinica Norte. Las consultas externas atienden de lunes a viernes de 7:00 a 15:00. El tiempo medio de espera para primera consulta es de 9 dias habiles. El centro dispone de radiografia. Ecografia, tomografia y resonancia se derivan al Hospital Central. El Hospital Sur no realiza cirugia programada. Todo procedimiento quirurgico se deriva al Hospital Central, y en ese caso aplica el copago del Hospital Central, no el del Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Sobre el centro"
+        }
+      ],
+      "textoEmbebible": "<tipo: hospital | hospital_id: sur | hospital: Hospital Sur | distrito: Sur | nivel: secundario | documento: hospital-sur.md>\nHospital Sur, distrito Sur, centro de nivel secundario. El Hospital Sur es un centro secundario situado en el distrito Sur, en la avenida Meridional 8. Es el centro mas economico de la red y atiende principalmente poblacion del sur de la ciudad. El servicio de urgencias atiende de 7:00 a 19:00. Fuera de ese horario el centro permanece cerrado y las urgencias se derivan al Hospital Central o a la Clinica Norte. Las consultas externas atienden de lunes a viernes de 7:00 a 15:00. El tiempo medio de espera para primera consulta es de 9 dias habiles. El centro dispone de radiografia. Ecografia, tomografia y resonancia se derivan al Hospital Central. El Hospital Sur no realiza cirugia programada. Todo procedimiento quirurgico se deriva al Hospital Central, y en ese caso aplica el copago del Hospital Central, no el del Hospital Sur.",
+      "caracteres": 963,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "hospital-sur-servicio-medicina-general",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "sur",
+        "hospital": "Hospital Sur",
+        "distrito": "Sur",
+        "especialidad": "Medicina General"
+      },
+      "contenido": "Hospital Sur atiende Medicina General. Sin cita previa. Preguntas que responde: el Hospital Sur tiene Medicina General, donde puedo ver un especialista de Medicina General, que especialidades atiende el Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: hospital | hospital_id: sur | hospital: Hospital Sur | distrito: Sur | especialidad: Medicina General | documento: hospital-sur.md>\nHospital Sur atiende Medicina General. Sin cita previa. Preguntas que responde: el Hospital Sur tiene Medicina General, donde puedo ver un especialista de Medicina General, que especialidades atiende el Hospital Sur.",
+      "caracteres": 355,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "hospital-sur-servicio-urgencias",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "sur",
+        "hospital": "Hospital Sur",
+        "distrito": "Sur",
+        "especialidad": "Urgencias"
+      },
+      "contenido": "Hospital Sur atiende Urgencias. Solo de 7:00 a 19:00. Preguntas que responde: el Hospital Sur tiene Urgencias, donde puedo ver un especialista de Urgencias, que especialidades atiende el Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: hospital | hospital_id: sur | hospital: Hospital Sur | distrito: Sur | especialidad: Urgencias | documento: hospital-sur.md>\nHospital Sur atiende Urgencias. Solo de 7:00 a 19:00. Preguntas que responde: el Hospital Sur tiene Urgencias, donde puedo ver un especialista de Urgencias, que especialidades atiende el Hospital Sur.",
+      "caracteres": 332,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "hospital-sur-servicio-urologia",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "sur",
+        "hospital": "Hospital Sur",
+        "distrito": "Sur",
+        "especialidad": "Urologia"
+      },
+      "contenido": "Hospital Sur atiende Urologia. Consulta, sin cirugia. Preguntas que responde: el Hospital Sur tiene Urologia, donde puedo ver un especialista de Urologia, que especialidades atiende el Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: hospital | hospital_id: sur | hospital: Hospital Sur | distrito: Sur | especialidad: Urologia | documento: hospital-sur.md>\nHospital Sur atiende Urologia. Consulta, sin cirugia. Preguntas que responde: el Hospital Sur tiene Urologia, donde puedo ver un especialista de Urologia, que especialidades atiende el Hospital Sur.",
+      "caracteres": 329,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "hospital-sur-servicio-traumatologia",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "sur",
+        "hospital": "Hospital Sur",
+        "distrito": "Sur",
+        "especialidad": "Traumatologia"
+      },
+      "contenido": "Hospital Sur atiende Traumatologia. Consulta y yesos, sin cirugia. Preguntas que responde: el Hospital Sur tiene Traumatologia, donde puedo ver un especialista de Traumatologia, que especialidades atiende el Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: hospital | hospital_id: sur | hospital: Hospital Sur | distrito: Sur | especialidad: Traumatologia | documento: hospital-sur.md>\nHospital Sur atiende Traumatologia. Consulta y yesos, sin cirugia. Preguntas que responde: el Hospital Sur tiene Traumatologia, donde puedo ver un especialista de Traumatologia, que especialidades atiende el Hospital Sur.",
+      "caracteres": 357,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,1105 @@
+{
+  "documento": {
+    "familia": "polizas",
+    "archivo": "plan-oro.md",
+    "ruta": "documentos/insumos/polizas/plan-oro.md",
+    "hash": "sha256:6c6563a7c6feacee",
+    "frontmatter": {
+      "plan_id": "oro",
+      "nombre": "Plan Oro",
+      "aseguradora": "Seguros Meridiano",
+      "deducible_anual": "150",
+      "tope_anual": "250000",
+      "moneda": "USD",
+      "version": "2026-01"
+    },
+    "generado": "2026-09-07T02:17:00.035Z"
+  },
+  "total": 33,
+  "embeddingsPendientes": 33,
+  "chunks": [
+    {
+      "id": "oro-cobertura-medicina-general-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Medicina General",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 10,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Medicina General, Hospital Central (distrito Centro). El Hospital Central atiende Medicina General y esta dentro de la red del Plan Oro. Copago: 10.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Medicina General en el Hospital Central, que copago tengo en Medicina General con el Plan Oro, cuanto me cuesta la consulta de Medicina General en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Medicina General | hospital: Hospital Central | hospital_id: central | distrito: Centro | copago: 10 | coaseguro: 0% | moneda: USD | requiere_referencia: false | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Medicina General, Hospital Central (distrito Centro). El Hospital Central atiende Medicina General y esta dentro de la red del Plan Oro. Copago: 10.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Medicina General en el Hospital Central, que copago tengo en Medicina General con el Plan Oro, cuanto me cuesta la consulta de Medicina General en el Hospital Central.",
+      "caracteres": 776,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-medicina-general-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Medicina General",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 8,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Medicina General, Clinica Norte (distrito Norte). El Clinica Norte atiende Medicina General y esta dentro de la red del Plan Oro. Copago: 8.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Medicina General en el Clinica Norte, que copago tengo en Medicina General con el Plan Oro, cuanto me cuesta la consulta de Medicina General en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Medicina General | hospital: Clinica Norte | hospital_id: norte | distrito: Norte | copago: 8 | coaseguro: 0% | moneda: USD | requiere_referencia: false | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Medicina General, Clinica Norte (distrito Norte). El Clinica Norte atiende Medicina General y esta dentro de la red del Plan Oro. Copago: 8.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Medicina General en el Clinica Norte, que copago tengo en Medicina General con el Plan Oro, cuanto me cuesta la consulta de Medicina General en el Clinica Norte.",
+      "caracteres": 755,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-medicina-general-hospital-sur",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Medicina General",
+        "hospital": "Hospital Sur",
+        "hospital_id": "sur",
+        "distrito": "Sur",
+        "copago": 5,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Medicina General, Hospital Sur (distrito Sur). El Hospital Sur atiende Medicina General y esta dentro de la red del Plan Oro. Copago: 5.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Medicina General en el Hospital Sur, que copago tengo en Medicina General con el Plan Oro, cuanto me cuesta la consulta de Medicina General en el Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Medicina General | hospital: Hospital Sur | hospital_id: sur | distrito: Sur | copago: 5 | coaseguro: 0% | moneda: USD | requiere_referencia: false | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Medicina General, Hospital Sur (distrito Sur). El Hospital Sur atiende Medicina General y esta dentro de la red del Plan Oro. Copago: 5.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Medicina General en el Hospital Sur, que copago tengo en Medicina General con el Plan Oro, cuanto me cuesta la consulta de Medicina General en el Hospital Sur.",
+      "caracteres": 744,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-urgencias-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Urgencias",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 25,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Urgencias, Hospital Central (distrito Centro). El Hospital Central atiende Urgencias y esta dentro de la red del Plan Oro. Copago: 25.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urgencias en el Hospital Central, que copago tengo en Urgencias con el Plan Oro, cuanto me cuesta la consulta de Urgencias en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Urgencias | hospital: Hospital Central | hospital_id: central | distrito: Centro | copago: 25 | coaseguro: 0% | moneda: USD | requiere_referencia: false | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Urgencias, Hospital Central (distrito Centro). El Hospital Central atiende Urgencias y esta dentro de la red del Plan Oro. Copago: 25.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urgencias en el Hospital Central, que copago tengo en Urgencias con el Plan Oro, cuanto me cuesta la consulta de Urgencias en el Hospital Central.",
+      "caracteres": 734,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-urgencias-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Urgencias",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 20,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Urgencias, Clinica Norte (distrito Norte). El Clinica Norte atiende Urgencias y esta dentro de la red del Plan Oro. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urgencias en el Clinica Norte, que copago tengo en Urgencias con el Plan Oro, cuanto me cuesta la consulta de Urgencias en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Urgencias | hospital: Clinica Norte | hospital_id: norte | distrito: Norte | copago: 20 | coaseguro: 0% | moneda: USD | requiere_referencia: false | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Urgencias, Clinica Norte (distrito Norte). El Clinica Norte atiende Urgencias y esta dentro de la red del Plan Oro. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urgencias en el Clinica Norte, que copago tengo en Urgencias con el Plan Oro, cuanto me cuesta la consulta de Urgencias en el Clinica Norte.",
+      "caracteres": 715,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-urgencias-hospital-sur",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Urgencias",
+        "hospital": "Hospital Sur",
+        "hospital_id": "sur",
+        "distrito": "Sur",
+        "copago": 15,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Urgencias, Hospital Sur (distrito Sur). El Hospital Sur atiende Urgencias y esta dentro de la red del Plan Oro. Copago: 15.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urgencias en el Hospital Sur, que copago tengo en Urgencias con el Plan Oro, cuanto me cuesta la consulta de Urgencias en el Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Urgencias | hospital: Hospital Sur | hospital_id: sur | distrito: Sur | copago: 15 | coaseguro: 0% | moneda: USD | requiere_referencia: false | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Urgencias, Hospital Sur (distrito Sur). El Hospital Sur atiende Urgencias y esta dentro de la red del Plan Oro. Copago: 15.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urgencias en el Hospital Sur, que copago tengo en Urgencias con el Plan Oro, cuanto me cuesta la consulta de Urgencias en el Hospital Sur.",
+      "caracteres": 704,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-urologia-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Urologia",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 20,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Urologia, Hospital Central (distrito Centro). El Hospital Central atiende Urologia y esta dentro de la red del Plan Oro. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urologia en el Hospital Central, que copago tengo en Urologia con el Plan Oro, cuanto me cuesta la consulta de Urologia en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Urologia | hospital: Hospital Central | hospital_id: central | distrito: Centro | copago: 20 | coaseguro: 0% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Urologia, Hospital Central (distrito Centro). El Hospital Central atiende Urologia y esta dentro de la red del Plan Oro. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urologia en el Hospital Central, que copago tengo en Urologia con el Plan Oro, cuanto me cuesta la consulta de Urologia en el Hospital Central.",
+      "caracteres": 727,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-urologia-hospital-sur",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Urologia",
+        "hospital": "Hospital Sur",
+        "hospital_id": "sur",
+        "distrito": "Sur",
+        "copago": 12,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Urologia, Hospital Sur (distrito Sur). El Hospital Sur atiende Urologia y esta dentro de la red del Plan Oro. Copago: 12.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urologia en el Hospital Sur, que copago tengo en Urologia con el Plan Oro, cuanto me cuesta la consulta de Urologia en el Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Urologia | hospital: Hospital Sur | hospital_id: sur | distrito: Sur | copago: 12 | coaseguro: 0% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Urologia, Hospital Sur (distrito Sur). El Hospital Sur atiende Urologia y esta dentro de la red del Plan Oro. Copago: 12.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urologia en el Hospital Sur, que copago tengo en Urologia con el Plan Oro, cuanto me cuesta la consulta de Urologia en el Hospital Sur.",
+      "caracteres": 697,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-traumatologia-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Traumatologia",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 20,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Traumatologia, Hospital Central (distrito Centro). El Hospital Central atiende Traumatologia y esta dentro de la red del Plan Oro. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Traumatologia en el Hospital Central, que copago tengo en Traumatologia con el Plan Oro, cuanto me cuesta la consulta de Traumatologia en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Traumatologia | hospital: Hospital Central | hospital_id: central | distrito: Centro | copago: 20 | coaseguro: 0% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Traumatologia, Hospital Central (distrito Centro). El Hospital Central atiende Traumatologia y esta dentro de la red del Plan Oro. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Traumatologia en el Hospital Central, que copago tengo en Traumatologia con el Plan Oro, cuanto me cuesta la consulta de Traumatologia en el Hospital Central.",
+      "caracteres": 757,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-traumatologia-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Traumatologia",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 18,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Traumatologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Traumatologia y esta dentro de la red del Plan Oro. Copago: 18.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Traumatologia en el Clinica Norte, que copago tengo en Traumatologia con el Plan Oro, cuanto me cuesta la consulta de Traumatologia en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Traumatologia | hospital: Clinica Norte | hospital_id: norte | distrito: Norte | copago: 18 | coaseguro: 0% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Traumatologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Traumatologia y esta dentro de la red del Plan Oro. Copago: 18.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Traumatologia en el Clinica Norte, que copago tengo en Traumatologia con el Plan Oro, cuanto me cuesta la consulta de Traumatologia en el Clinica Norte.",
+      "caracteres": 738,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-traumatologia-hospital-sur",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Traumatologia",
+        "hospital": "Hospital Sur",
+        "hospital_id": "sur",
+        "distrito": "Sur",
+        "copago": 12,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Traumatologia, Hospital Sur (distrito Sur). El Hospital Sur atiende Traumatologia y esta dentro de la red del Plan Oro. Copago: 12.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Traumatologia en el Hospital Sur, que copago tengo en Traumatologia con el Plan Oro, cuanto me cuesta la consulta de Traumatologia en el Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Traumatologia | hospital: Hospital Sur | hospital_id: sur | distrito: Sur | copago: 12 | coaseguro: 0% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Traumatologia, Hospital Sur (distrito Sur). El Hospital Sur atiende Traumatologia y esta dentro de la red del Plan Oro. Copago: 12.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Traumatologia en el Hospital Sur, que copago tengo en Traumatologia con el Plan Oro, cuanto me cuesta la consulta de Traumatologia en el Hospital Sur.",
+      "caracteres": 727,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-cardiologia-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Cardiologia",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 30,
+        "coaseguro": "10%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": true,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Cardiologia, Hospital Central (distrito Centro). El Hospital Central atiende Cardiologia y esta dentro de la red del Plan Oro. Copago: 30.00 USD. Coaseguro: 10%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Cardiologia en el Hospital Central, que copago tengo en Cardiologia con el Plan Oro, cuanto me cuesta la consulta de Cardiologia en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Cardiologia | hospital: Hospital Central | hospital_id: central | distrito: Centro | copago: 30 | coaseguro: 10% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: true | en_red: true | documento: plan-oro.md>\nPlan Oro, Cardiologia, Hospital Central (distrito Centro). El Hospital Central atiende Cardiologia y esta dentro de la red del Plan Oro. Copago: 30.00 USD. Coaseguro: 10%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Cardiologia en el Hospital Central, que copago tengo en Cardiologia con el Plan Oro, cuanto me cuesta la consulta de Cardiologia en el Hospital Central.",
+      "caracteres": 746,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-dermatologia-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Dermatologia",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 20,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Dermatologia, Hospital Central (distrito Centro). El Hospital Central atiende Dermatologia y esta dentro de la red del Plan Oro. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Dermatologia en el Hospital Central, que copago tengo en Dermatologia con el Plan Oro, cuanto me cuesta la consulta de Dermatologia en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Dermatologia | hospital: Hospital Central | hospital_id: central | distrito: Centro | copago: 20 | coaseguro: 0% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Dermatologia, Hospital Central (distrito Centro). El Hospital Central atiende Dermatologia y esta dentro de la red del Plan Oro. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Dermatologia en el Hospital Central, que copago tengo en Dermatologia con el Plan Oro, cuanto me cuesta la consulta de Dermatologia en el Hospital Central.",
+      "caracteres": 751,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-dermatologia-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Dermatologia",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 22,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Dermatologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Dermatologia y esta dentro de la red del Plan Oro. Copago: 22.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Dermatologia en el Clinica Norte, que copago tengo en Dermatologia con el Plan Oro, cuanto me cuesta la consulta de Dermatologia en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Dermatologia | hospital: Clinica Norte | hospital_id: norte | distrito: Norte | copago: 22 | coaseguro: 0% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Dermatologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Dermatologia y esta dentro de la red del Plan Oro. Copago: 22.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Dermatologia en el Clinica Norte, que copago tengo en Dermatologia con el Plan Oro, cuanto me cuesta la consulta de Dermatologia en el Clinica Norte.",
+      "caracteres": 732,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-otorrinolaringologia-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Otorrinolaringologia",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 20,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Otorrinolaringologia, Hospital Central (distrito Centro). El Hospital Central atiende Otorrinolaringologia y esta dentro de la red del Plan Oro. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Otorrinolaringologia en el Hospital Central, que copago tengo en Otorrinolaringologia con el Plan Oro, cuanto me cuesta la consulta de Otorrinolaringologia en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Otorrinolaringologia | hospital: Hospital Central | hospital_id: central | distrito: Centro | copago: 20 | coaseguro: 0% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Otorrinolaringologia, Hospital Central (distrito Centro). El Hospital Central atiende Otorrinolaringologia y esta dentro de la red del Plan Oro. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Otorrinolaringologia en el Hospital Central, que copago tengo en Otorrinolaringologia con el Plan Oro, cuanto me cuesta la consulta de Otorrinolaringologia en el Hospital Central.",
+      "caracteres": 799,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-otorrinolaringologia-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Otorrinolaringologia",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 16,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Otorrinolaringologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Otorrinolaringologia y esta dentro de la red del Plan Oro. Copago: 16.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Otorrinolaringologia en el Clinica Norte, que copago tengo en Otorrinolaringologia con el Plan Oro, cuanto me cuesta la consulta de Otorrinolaringologia en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Otorrinolaringologia | hospital: Clinica Norte | hospital_id: norte | distrito: Norte | copago: 16 | coaseguro: 0% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Otorrinolaringologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Otorrinolaringologia y esta dentro de la red del Plan Oro. Copago: 16.00 USD. Coaseguro: 0%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Otorrinolaringologia en el Clinica Norte, que copago tengo en Otorrinolaringologia con el Plan Oro, cuanto me cuesta la consulta de Otorrinolaringologia en el Clinica Norte.",
+      "caracteres": 780,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-ginecologia-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Ginecologia",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 20,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Ginecologia, Hospital Central (distrito Centro). El Hospital Central atiende Ginecologia y esta dentro de la red del Plan Oro. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Ginecologia en el Hospital Central, que copago tengo en Ginecologia con el Plan Oro, cuanto me cuesta la consulta de Ginecologia en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Ginecologia | hospital: Hospital Central | hospital_id: central | distrito: Centro | copago: 20 | coaseguro: 0% | moneda: USD | requiere_referencia: false | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Ginecologia, Hospital Central (distrito Centro). El Hospital Central atiende Ginecologia y esta dentro de la red del Plan Oro. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Ginecologia en el Hospital Central, que copago tengo en Ginecologia con el Plan Oro, cuanto me cuesta la consulta de Ginecologia en el Hospital Central.",
+      "caracteres": 746,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-cobertura-ginecologia-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Ginecologia",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 15,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Oro, Ginecologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Ginecologia y esta dentro de la red del Plan Oro. Copago: 15.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Ginecologia en el Clinica Norte, que copago tengo en Ginecologia con el Plan Oro, cuanto me cuesta la consulta de Ginecologia en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | especialidad: Ginecologia | hospital: Clinica Norte | hospital_id: norte | distrito: Norte | copago: 15 | coaseguro: 0% | moneda: USD | requiere_referencia: false | requiere_preautorizacion: false | en_red: true | documento: plan-oro.md>\nPlan Oro, Ginecologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Ginecologia y esta dentro de la red del Plan Oro. Copago: 15.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Ginecologia en el Clinica Norte, que copago tengo en Ginecologia con el Plan Oro, cuanto me cuesta la consulta de Ginecologia en el Clinica Norte.",
+      "caracteres": 727,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-ranking-medicina-general",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "especialidad": "Medicina General",
+        "opciones": 3,
+        "hospital_mas_economico": "Hospital Sur",
+        "copago_minimo": 5,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Oro, Medicina General, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 5.00 USD, despues Clinica Norte con 8.00 USD, despues Hospital Central con 10.00 USD. Preguntas que responde: donde me sale mas barato Medicina General con el Plan Oro, que hospital me conviene economicamente para Medicina General, cual es el centro mas economico para Medicina General.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: oro | plan: Plan Oro | especialidad: Medicina General | opciones: 3 | hospital_mas_economico: Hospital Sur | copago_minimo: 5 | moneda: USD | documento: plan-oro.md>\nPlan Oro, Medicina General, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 5.00 USD, despues Clinica Norte con 8.00 USD, despues Hospital Central con 10.00 USD. Preguntas que responde: donde me sale mas barato Medicina General con el Plan Oro, que hospital me conviene economicamente para Medicina General, cual es el centro mas economico para Medicina General.",
+      "caracteres": 634,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-ranking-urgencias",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "especialidad": "Urgencias",
+        "opciones": 3,
+        "hospital_mas_economico": "Hospital Sur",
+        "copago_minimo": 15,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Oro, Urgencias, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 15.00 USD, despues Clinica Norte con 20.00 USD, despues Hospital Central con 25.00 USD. Preguntas que responde: donde me sale mas barato Urgencias con el Plan Oro, que hospital me conviene economicamente para Urgencias, cual es el centro mas economico para Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: oro | plan: Plan Oro | especialidad: Urgencias | opciones: 3 | hospital_mas_economico: Hospital Sur | copago_minimo: 15 | moneda: USD | documento: plan-oro.md>\nPlan Oro, Urgencias, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 15.00 USD, despues Clinica Norte con 20.00 USD, despues Hospital Central con 25.00 USD. Preguntas que responde: donde me sale mas barato Urgencias con el Plan Oro, que hospital me conviene economicamente para Urgencias, cual es el centro mas economico para Urgencias.",
+      "caracteres": 602,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-ranking-urologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "especialidad": "Urologia",
+        "opciones": 2,
+        "hospital_mas_economico": "Hospital Sur",
+        "copago_minimo": 12,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Oro, Urologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 12.00 USD, despues Hospital Central con 20.00 USD. Preguntas que responde: donde me sale mas barato Urologia con el Plan Oro, que hospital me conviene economicamente para Urologia, cual es el centro mas economico para Urologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: oro | plan: Plan Oro | especialidad: Urologia | opciones: 2 | hospital_mas_economico: Hospital Sur | copago_minimo: 12 | moneda: USD | documento: plan-oro.md>\nPlan Oro, Urologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 12.00 USD, despues Hospital Central con 20.00 USD. Preguntas que responde: donde me sale mas barato Urologia con el Plan Oro, que hospital me conviene economicamente para Urologia, cual es el centro mas economico para Urologia.",
+      "caracteres": 560,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-ranking-traumatologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "especialidad": "Traumatologia",
+        "opciones": 3,
+        "hospital_mas_economico": "Hospital Sur",
+        "copago_minimo": 12,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Oro, Traumatologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 12.00 USD, despues Clinica Norte con 18.00 USD, despues Hospital Central con 20.00 USD. Preguntas que responde: donde me sale mas barato Traumatologia con el Plan Oro, que hospital me conviene economicamente para Traumatologia, cual es el centro mas economico para Traumatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: oro | plan: Plan Oro | especialidad: Traumatologia | opciones: 3 | hospital_mas_economico: Hospital Sur | copago_minimo: 12 | moneda: USD | documento: plan-oro.md>\nPlan Oro, Traumatologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 12.00 USD, despues Clinica Norte con 18.00 USD, despues Hospital Central con 20.00 USD. Preguntas que responde: donde me sale mas barato Traumatologia con el Plan Oro, que hospital me conviene economicamente para Traumatologia, cual es el centro mas economico para Traumatologia.",
+      "caracteres": 622,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-ranking-cardiologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "especialidad": "Cardiologia",
+        "opciones": 1,
+        "hospital_mas_economico": "Hospital Central",
+        "copago_minimo": 30,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Oro, Cardiologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Central con 30.00 USD mas un coaseguro del 10%. Preguntas que responde: donde me sale mas barato Cardiologia con el Plan Oro, que hospital me conviene economicamente para Cardiologia, cual es el centro mas economico para Cardiologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: oro | plan: Plan Oro | especialidad: Cardiologia | opciones: 1 | hospital_mas_economico: Hospital Central | copago_minimo: 30 | moneda: USD | documento: plan-oro.md>\nPlan Oro, Cardiologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Central con 30.00 USD mas un coaseguro del 10%. Preguntas que responde: donde me sale mas barato Cardiologia con el Plan Oro, que hospital me conviene economicamente para Cardiologia, cual es el centro mas economico para Cardiologia.",
+      "caracteres": 568,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-ranking-dermatologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "especialidad": "Dermatologia",
+        "opciones": 2,
+        "hospital_mas_economico": "Hospital Central",
+        "copago_minimo": 20,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Oro, Dermatologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Central con 20.00 USD, despues Clinica Norte con 22.00 USD. Preguntas que responde: donde me sale mas barato Dermatologia con el Plan Oro, que hospital me conviene economicamente para Dermatologia, cual es el centro mas economico para Dermatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: oro | plan: Plan Oro | especialidad: Dermatologia | opciones: 2 | hospital_mas_economico: Hospital Central | copago_minimo: 20 | moneda: USD | documento: plan-oro.md>\nPlan Oro, Dermatologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Central con 20.00 USD, despues Clinica Norte con 22.00 USD. Preguntas que responde: donde me sale mas barato Dermatologia con el Plan Oro, que hospital me conviene economicamente para Dermatologia, cual es el centro mas economico para Dermatologia.",
+      "caracteres": 585,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-ranking-otorrinolaringologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "especialidad": "Otorrinolaringologia",
+        "opciones": 2,
+        "hospital_mas_economico": "Clinica Norte",
+        "copago_minimo": 16,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Oro, Otorrinolaringologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 16.00 USD, despues Hospital Central con 20.00 USD. Preguntas que responde: donde me sale mas barato Otorrinolaringologia con el Plan Oro, que hospital me conviene economicamente para Otorrinolaringologia, cual es el centro mas economico para Otorrinolaringologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: oro | plan: Plan Oro | especialidad: Otorrinolaringologia | opciones: 2 | hospital_mas_economico: Clinica Norte | copago_minimo: 16 | moneda: USD | documento: plan-oro.md>\nPlan Oro, Otorrinolaringologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 16.00 USD, despues Hospital Central con 20.00 USD. Preguntas que responde: donde me sale mas barato Otorrinolaringologia con el Plan Oro, que hospital me conviene economicamente para Otorrinolaringologia, cual es el centro mas economico para Otorrinolaringologia.",
+      "caracteres": 622,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-ranking-ginecologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "especialidad": "Ginecologia",
+        "opciones": 2,
+        "hospital_mas_economico": "Clinica Norte",
+        "copago_minimo": 15,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Oro, Ginecologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 15.00 USD, despues Hospital Central con 20.00 USD. Preguntas que responde: donde me sale mas barato Ginecologia con el Plan Oro, que hospital me conviene economicamente para Ginecologia, cual es el centro mas economico para Ginecologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: oro | plan: Plan Oro | especialidad: Ginecologia | opciones: 2 | hospital_mas_economico: Clinica Norte | copago_minimo: 15 | moneda: USD | documento: plan-oro.md>\nPlan Oro, Ginecologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 15.00 USD, despues Hospital Central con 20.00 USD. Preguntas que responde: donde me sale mas barato Ginecologia con el Plan Oro, que hospital me conviene economicamente para Ginecologia, cual es el centro mas economico para Ginecologia.",
+      "caracteres": 577,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-condicion-condiciones-generales-1",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Oro, Condiciones generales. El Plan Oro cubre consulta de medicina general sin referencia previa y consulta de especialidad con referencia del medico de cabecera, salvo Ginecologia, a la que el asegurado puede acudir directamente.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Condiciones generales"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | seccion: Condiciones generales | documento: plan-oro.md>\nPlan Oro, Condiciones generales. El Plan Oro cubre consulta de medicina general sin referencia previa y consulta de especialidad con referencia del medico de cabecera, salvo Ginecologia, a la que el asegurado puede acudir directamente.",
+      "caracteres": 376,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-condicion-condiciones-generales-2",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Oro, Condiciones generales. El deducible anual es de 150 USD y se aplica una sola vez por ano poliza, sobre el primer servicio que lo genere. Los copagos de consulta no consumen deducible.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Condiciones generales"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | seccion: Condiciones generales | documento: plan-oro.md>\nPlan Oro, Condiciones generales. El deducible anual es de 150 USD y se aplica una sola vez por ano poliza, sobre el primer servicio que lo genere. Los copagos de consulta no consumen deducible.",
+      "caracteres": 334,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-condicion-condiciones-generales-3",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Oro, Condiciones generales. Las enfermedades preexistentes declaradas en la solicitud quedan cubiertas tras una carencia de 12 meses desde el alta de la poliza. Las no declaradas quedan excluidas.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Condiciones generales"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | seccion: Condiciones generales | documento: plan-oro.md>\nPlan Oro, Condiciones generales. Las enfermedades preexistentes declaradas en la solicitud quedan cubiertas tras una carencia de 12 meses desde el alta de la poliza. Las no declaradas quedan excluidas.",
+      "caracteres": 342,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-condicion-condiciones-generales-4",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Oro, Condiciones generales. Se considera urgencia todo cuadro que ponga en riesgo la vida o la funcion de un organo, o que produzca dolor severo de inicio subito. En urgencia no se exige referencia ni preautorizacion, y el asegurado puede acudir a cualquier centro de la red o fuera de ella. Si acude fuera de la red, el reembolso es del 70 por ciento.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Condiciones generales"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | seccion: Condiciones generales | documento: plan-oro.md>\nPlan Oro, Condiciones generales. Se considera urgencia todo cuadro que ponga en riesgo la vida o la funcion de un organo, o que produzca dolor severo de inicio subito. En urgencia no se exige referencia ni preautorizacion, y el asegurado puede acudir a cualquier centro de la red o fuera de ella. Si acude fuera de la red, el reembolso es del 70 por ciento.",
+      "caracteres": 498,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-condicion-condiciones-generales-5",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Oro, Condiciones generales. La preautorizacion, cuando se exige, debe solicitarse con al menos 48 horas de antelacion a traves del portal del asegurado o por telefono.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Condiciones generales"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | seccion: Condiciones generales | documento: plan-oro.md>\nPlan Oro, Condiciones generales. La preautorizacion, cuando se exige, debe solicitarse con al menos 48 horas de antelacion a traves del portal del asegurado o por telefono.",
+      "caracteres": 313,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-condicion-exclusiones-1",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Exclusiones"
+      },
+      "contenido": "Plan Oro, Exclusiones. Quedan excluidos los tratamientos con finalidad estetica, la cirugia refractiva, los tratamientos de fertilidad, la medicina alternativa y los chequeos solicitados por el propio asegurado sin indicacion medica.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Exclusiones"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | seccion: Exclusiones | documento: plan-oro.md>\nPlan Oro, Exclusiones. Quedan excluidos los tratamientos con finalidad estetica, la cirugia refractiva, los tratamientos de fertilidad, la medicina alternativa y los chequeos solicitados por el propio asegurado sin indicacion medica.",
+      "caracteres": 364,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "oro-condicion-exclusiones-2",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "oro",
+        "plan": "Plan Oro",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Exclusiones"
+      },
+      "contenido": "Plan Oro, Exclusiones. Las lesiones derivadas de la practica de deportes de riesgo declarados como tales en las condiciones particulares quedan excluidas salvo contratacion de la cobertura adicional correspondiente.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-oro.md",
+          "seccion": "Exclusiones"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: oro | plan: Plan Oro | aseguradora: Seguros Meridiano | seccion: Exclusiones | documento: plan-oro.md>\nPlan Oro, Exclusiones. Las lesiones derivadas de la practica de deportes de riesgo declarados como tales en las condiciones particulares quedan excluidas salvo contratacion de la cobertura adicional correspondiente.",
+      "caracteres": 346,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    }
+  ]
+}

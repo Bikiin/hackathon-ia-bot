@@ -1,0 +1,403 @@
+{
+  "documento": {
+    "familia": "clinico",
+    "archivo": "sintomas-alarma.md",
+    "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+    "hash": "sha256:e3d5153a98b6e3d4",
+    "frontmatter": {
+      "tipo": "mapa-sintomas",
+      "ambito": "alarma",
+      "prioridad": "maxima",
+      "version": "2026-01"
+    },
+    "generado": "2026-09-07T02:17:00.035Z"
+  },
+  "total": 16,
+  "embeddingsPendientes": 16,
+  "chunks": [
+    {
+      "id": "sintoma-alarma-001",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"me duele el pecho y me falta el aire\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"me duele el pecho y me falta el aire\". Especialidad sugerida: Urgencias.",
+      "caracteres": 202,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-002",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"siento una presion fuerte en el pecho que baja al brazo\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"siento una presion fuerte en el pecho que baja al brazo\". Especialidad sugerida: Urgencias.",
+      "caracteres": 221,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-003",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"no puedo respirar bien y me estoy ahogando\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"no puedo respirar bien y me estoy ahogando\". Especialidad sugerida: Urgencias.",
+      "caracteres": 208,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-004",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"se me durmio la mitad de la cara de repente\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"se me durmio la mitad de la cara de repente\". Especialidad sugerida: Urgencias.",
+      "caracteres": 209,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-005",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"no puedo mover un lado del cuerpo\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"no puedo mover un lado del cuerpo\". Especialidad sugerida: Urgencias.",
+      "caracteres": 199,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-006",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"de golpe no puedo hablar bien\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"de golpe no puedo hablar bien\". Especialidad sugerida: Urgencias.",
+      "caracteres": 195,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-007",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"me dio el peor dolor de cabeza de mi vida de repente\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"me dio el peor dolor de cabeza de mi vida de repente\". Especialidad sugerida: Urgencias.",
+      "caracteres": 218,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-008",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"me desmaye y no se por que\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"me desmaye y no se por que\". Especialidad sugerida: Urgencias.",
+      "caracteres": 192,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-009",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"estoy sangrando mucho y no para\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"estoy sangrando mucho y no para\". Especialidad sugerida: Urgencias.",
+      "caracteres": 197,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-010",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"me duele la barriga muy fuerte y no puedo enderezarme\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"me duele la barriga muy fuerte y no puedo enderezarme\". Especialidad sugerida: Urgencias.",
+      "caracteres": 219,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-011",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"tengo fiebre muy alta y estoy confundido\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"tengo fiebre muy alta y estoy confundido\". Especialidad sugerida: Urgencias.",
+      "caracteres": 206,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-012",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"me golpee la cabeza y vomite despues\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"me golpee la cabeza y vomite despues\". Especialidad sugerida: Urgencias.",
+      "caracteres": 202,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-013",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"tengo una herida profunda y abierta\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"tengo una herida profunda y abierta\". Especialidad sugerida: Urgencias.",
+      "caracteres": 201,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-014",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"creo que me rompi un hueso, esta deformado\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"creo que me rompi un hueso, esta deformado\". Especialidad sugerida: Urgencias.",
+      "caracteres": 208,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-015",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"tengo una quemadura grande\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"tengo una quemadura grande\". Especialidad sugerida: Urgencias.",
+      "caracteres": 192,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "sintoma-alarma-016",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "alarma",
+        "especialidad": "Urgencias",
+        "prioridad": "maxima"
+      },
+      "contenido": "El paciente dice: \"me tome algo que no debia\". Especialidad sugerida: Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-alarma.md",
+          "seccion": "Frases de paciente"
+        }
+      ],
+      "textoEmbebible": "<tipo: sintoma | ambito: alarma | especialidad: Urgencias | prioridad: maxima | documento: sintomas-alarma.md>\nEl paciente dice: \"me tome algo que no debia\". Especialidad sugerida: Urgencias.",
+      "caracteres": 191,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    }
+  ]
+}

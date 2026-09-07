@@ -12,7 +12,8 @@
     "db:pull": "drizzle-kit introspect",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "db:check": "drizzle-kit check"
+    "db:check": "drizzle-kit check",
+    "ingesta": "tsx scripts/ingesta.ts"
   },
   "dependencies": {
     "@ai-sdk/react": "^4.0.96",

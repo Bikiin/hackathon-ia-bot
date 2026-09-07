@@ -1,0 +1,195 @@
+{
+  "documento": {
+    "familia": "hospitales",
+    "archivo": "clinica-norte.md",
+    "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+    "hash": "sha256:0309da30b8860393",
+    "frontmatter": {
+      "hospital_id": "norte",
+      "nombre": "Clinica Norte",
+      "distrito": "Norte",
+      "nivel": "secundario",
+      "version": "2026-01"
+    },
+    "generado": "2026-09-07T02:17:00.035Z"
+  },
+  "total": 7,
+  "embeddingsPendientes": 7,
+  "chunks": [
+    {
+      "id": "hospital-norte-general",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "norte",
+        "hospital": "Clinica Norte",
+        "distrito": "Norte",
+        "nivel": "secundario"
+      },
+      "contenido": "Clinica Norte, distrito Norte, centro de nivel secundario. La Clinica Norte es un centro secundario situado en el distrito Norte, en la calle Los Robles 45. Esta orientada a consulta ambulatoria y cirugia menor, y es el centro de referencia de la zona norte de la ciudad. El servicio de urgencias atiende 24 horas, pero no dispone de unidad de cuidados intensivos: los casos que requieren ingreso critico se trasladan al Hospital Central. Las consultas externas atienden de lunes a viernes de 8:00 a 18:00. No hay consulta los sabados. El tiempo medio de espera para primera consulta es de 6 dias habiles, el mas corto de la red, porque el volumen de pacientes es menor que en el Hospital Central. El centro realiza radiografia y ecografia. Para tomografia o resonancia deriva al Hospital Central sin coste adicional de traslado. La Clinica Norte tiene convenio de laboratorio externo, por lo que los resultados tardan hasta 72 horas.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Sobre el centro"
+        }
+      ],
+      "textoEmbebible": "<tipo: hospital | hospital_id: norte | hospital: Clinica Norte | distrito: Norte | nivel: secundario | documento: clinica-norte.md>\nClinica Norte, distrito Norte, centro de nivel secundario. La Clinica Norte es un centro secundario situado en el distrito Norte, en la calle Los Robles 45. Esta orientada a consulta ambulatoria y cirugia menor, y es el centro de referencia de la zona norte de la ciudad. El servicio de urgencias atiende 24 horas, pero no dispone de unidad de cuidados intensivos: los casos que requieren ingreso critico se trasladan al Hospital Central. Las consultas externas atienden de lunes a viernes de 8:00 a 18:00. No hay consulta los sabados. El tiempo medio de espera para primera consulta es de 6 dias habiles, el mas corto de la red, porque el volumen de pacientes es menor que en el Hospital Central. El centro realiza radiografia y ecografia. Para tomografia o resonancia deriva al Hospital Central sin coste adicional de traslado. La Clinica Norte tiene convenio de laboratorio externo, por lo que los resultados tardan hasta 72 horas.",
+      "caracteres": 1066,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "hospital-norte-servicio-medicina-general",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "norte",
+        "hospital": "Clinica Norte",
+        "distrito": "Norte",
+        "especialidad": "Medicina General"
+      },
+      "contenido": "Clinica Norte atiende Medicina General. Con y sin cita previa. Preguntas que responde: el Clinica Norte tiene Medicina General, donde puedo ver un especialista de Medicina General, que especialidades atiende el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: hospital | hospital_id: norte | hospital: Clinica Norte | distrito: Norte | especialidad: Medicina General | documento: clinica-norte.md>\nClinica Norte atiende Medicina General. Con y sin cita previa. Preguntas que responde: el Clinica Norte tiene Medicina General, donde puedo ver un especialista de Medicina General, que especialidades atiende el Clinica Norte.",
+      "caracteres": 370,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "hospital-norte-servicio-urgencias",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "norte",
+        "hospital": "Clinica Norte",
+        "distrito": "Norte",
+        "especialidad": "Urgencias"
+      },
+      "contenido": "Clinica Norte atiende Urgencias. 24 horas, sin cuidados intensivos. Preguntas que responde: el Clinica Norte tiene Urgencias, donde puedo ver un especialista de Urgencias, que especialidades atiende el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: hospital | hospital_id: norte | hospital: Clinica Norte | distrito: Norte | especialidad: Urgencias | documento: clinica-norte.md>\nClinica Norte atiende Urgencias. 24 horas, sin cuidados intensivos. Preguntas que responde: el Clinica Norte tiene Urgencias, donde puedo ver un especialista de Urgencias, que especialidades atiende el Clinica Norte.",
+      "caracteres": 354,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "hospital-norte-servicio-traumatologia",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "norte",
+        "hospital": "Clinica Norte",
+        "distrito": "Norte",
+        "especialidad": "Traumatologia"
+      },
+      "contenido": "Clinica Norte atiende Traumatologia. Sin cirugia compleja. Preguntas que responde: el Clinica Norte tiene Traumatologia, donde puedo ver un especialista de Traumatologia, que especialidades atiende el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: hospital | hospital_id: norte | hospital: Clinica Norte | distrito: Norte | especialidad: Traumatologia | documento: clinica-norte.md>\nClinica Norte atiende Traumatologia. Sin cirugia compleja. Preguntas que responde: el Clinica Norte tiene Traumatologia, donde puedo ver un especialista de Traumatologia, que especialidades atiende el Clinica Norte.",
+      "caracteres": 357,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "hospital-norte-servicio-dermatologia",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "norte",
+        "hospital": "Clinica Norte",
+        "distrito": "Norte",
+        "especialidad": "Dermatologia"
+      },
+      "contenido": "Clinica Norte atiende Dermatologia. Consulta y dermatologia estetica. Preguntas que responde: el Clinica Norte tiene Dermatologia, donde puedo ver un especialista de Dermatologia, que especialidades atiende el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: hospital | hospital_id: norte | hospital: Clinica Norte | distrito: Norte | especialidad: Dermatologia | documento: clinica-norte.md>\nClinica Norte atiende Dermatologia. Consulta y dermatologia estetica. Preguntas que responde: el Clinica Norte tiene Dermatologia, donde puedo ver un especialista de Dermatologia, que especialidades atiende el Clinica Norte.",
+      "caracteres": 365,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "hospital-norte-servicio-otorrinolaringologia",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "norte",
+        "hospital": "Clinica Norte",
+        "distrito": "Norte",
+        "especialidad": "Otorrinolaringologia"
+      },
+      "contenido": "Clinica Norte atiende Otorrinolaringologia. Consulta general. Preguntas que responde: el Clinica Norte tiene Otorrinolaringologia, donde puedo ver un especialista de Otorrinolaringologia, que especialidades atiende el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: hospital | hospital_id: norte | hospital: Clinica Norte | distrito: Norte | especialidad: Otorrinolaringologia | documento: clinica-norte.md>\nClinica Norte atiende Otorrinolaringologia. Consulta general. Preguntas que responde: el Clinica Norte tiene Otorrinolaringologia, donde puedo ver un especialista de Otorrinolaringologia, que especialidades atiende el Clinica Norte.",
+      "caracteres": 381,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "hospital-norte-servicio-ginecologia",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "norte",
+        "hospital": "Clinica Norte",
+        "distrito": "Norte",
+        "especialidad": "Ginecologia"
+      },
+      "contenido": "Clinica Norte atiende Ginecologia. Consulta y planificacion familiar. Preguntas que responde: el Clinica Norte tiene Ginecologia, donde puedo ver un especialista de Ginecologia, que especialidades atiende el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: hospital | hospital_id: norte | hospital: Clinica Norte | distrito: Norte | especialidad: Ginecologia | documento: clinica-norte.md>\nClinica Norte atiende Ginecologia. Consulta y planificacion familiar. Preguntas que responde: el Clinica Norte tiene Ginecologia, donde puedo ver un especialista de Ginecologia, que especialidades atiende el Clinica Norte.",
+      "caracteres": 362,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    }
+  ]
+}

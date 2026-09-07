@@ -1,0 +1,773 @@
+{
+  "documento": {
+    "familia": "polizas",
+    "archivo": "plan-bronce.md",
+    "ruta": "documentos/insumos/polizas/plan-bronce.md",
+    "hash": "sha256:70e1baa73603bd4b",
+    "frontmatter": {
+      "plan_id": "bronce",
+      "nombre": "Plan Bronce",
+      "aseguradora": "Seguros Meridiano",
+      "deducible_anual": "900",
+      "tope_anual": "50000",
+      "moneda": "USD",
+      "version": "2026-01"
+    },
+    "generado": "2026-09-07T02:17:00.035Z"
+  },
+  "total": 24,
+  "embeddingsPendientes": 24,
+  "chunks": [
+    {
+      "id": "bronce-cobertura-medicina-general-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Medicina General",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 20,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Bronce, Medicina General, Clinica Norte (distrito Norte). El Clinica Norte atiende Medicina General y esta dentro de la red del Plan Bronce. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Medicina General en el Clinica Norte, que copago tengo en Medicina General con el Plan Bronce, cuanto me cuesta la consulta de Medicina General en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | especialidad: Medicina General | hospital: Clinica Norte | hospital_id: norte | distrito: Norte | copago: 20 | coaseguro: 0% | moneda: USD | requiere_referencia: false | requiere_preautorizacion: false | en_red: true | documento: plan-bronce.md>\nPlan Bronce, Medicina General, Clinica Norte (distrito Norte). El Clinica Norte atiende Medicina General y esta dentro de la red del Plan Bronce. Copago: 20.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Medicina General en el Clinica Norte, que copago tengo en Medicina General con el Plan Bronce, cuanto me cuesta la consulta de Medicina General en el Clinica Norte.",
+      "caracteres": 775,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-cobertura-medicina-general-hospital-sur",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Medicina General",
+        "hospital": "Hospital Sur",
+        "hospital_id": "sur",
+        "distrito": "Sur",
+        "copago": 15,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Bronce, Medicina General, Hospital Sur (distrito Sur). El Hospital Sur atiende Medicina General y esta dentro de la red del Plan Bronce. Copago: 15.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Medicina General en el Hospital Sur, que copago tengo en Medicina General con el Plan Bronce, cuanto me cuesta la consulta de Medicina General en el Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | especialidad: Medicina General | hospital: Hospital Sur | hospital_id: sur | distrito: Sur | copago: 15 | coaseguro: 0% | moneda: USD | requiere_referencia: false | requiere_preautorizacion: false | en_red: true | documento: plan-bronce.md>\nPlan Bronce, Medicina General, Hospital Sur (distrito Sur). El Hospital Sur atiende Medicina General y esta dentro de la red del Plan Bronce. Copago: 15.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Medicina General en el Hospital Sur, que copago tengo en Medicina General con el Plan Bronce, cuanto me cuesta la consulta de Medicina General en el Hospital Sur.",
+      "caracteres": 764,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-cobertura-urgencias-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Urgencias",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 60,
+        "coaseguro": "20%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Bronce, Urgencias, Clinica Norte (distrito Norte). El Clinica Norte atiende Urgencias y esta dentro de la red del Plan Bronce. Copago: 60.00 USD. Coaseguro: 20%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urgencias en el Clinica Norte, que copago tengo en Urgencias con el Plan Bronce, cuanto me cuesta la consulta de Urgencias en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | especialidad: Urgencias | hospital: Clinica Norte | hospital_id: norte | distrito: Norte | copago: 60 | coaseguro: 20% | moneda: USD | requiere_referencia: false | requiere_preautorizacion: false | en_red: true | documento: plan-bronce.md>\nPlan Bronce, Urgencias, Clinica Norte (distrito Norte). El Clinica Norte atiende Urgencias y esta dentro de la red del Plan Bronce. Copago: 60.00 USD. Coaseguro: 20%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urgencias en el Clinica Norte, que copago tengo en Urgencias con el Plan Bronce, cuanto me cuesta la consulta de Urgencias en el Clinica Norte.",
+      "caracteres": 735,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-cobertura-urgencias-hospital-sur",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Urgencias",
+        "hospital": "Hospital Sur",
+        "hospital_id": "sur",
+        "distrito": "Sur",
+        "copago": 45,
+        "coaseguro": "20%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Bronce, Urgencias, Hospital Sur (distrito Sur). El Hospital Sur atiende Urgencias y esta dentro de la red del Plan Bronce. Copago: 45.00 USD. Coaseguro: 20%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urgencias en el Hospital Sur, que copago tengo en Urgencias con el Plan Bronce, cuanto me cuesta la consulta de Urgencias en el Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | especialidad: Urgencias | hospital: Hospital Sur | hospital_id: sur | distrito: Sur | copago: 45 | coaseguro: 20% | moneda: USD | requiere_referencia: false | requiere_preautorizacion: false | en_red: true | documento: plan-bronce.md>\nPlan Bronce, Urgencias, Hospital Sur (distrito Sur). El Hospital Sur atiende Urgencias y esta dentro de la red del Plan Bronce. Copago: 45.00 USD. Coaseguro: 20%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urgencias en el Hospital Sur, que copago tengo en Urgencias con el Plan Bronce, cuanto me cuesta la consulta de Urgencias en el Hospital Sur.",
+      "caracteres": 724,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-cobertura-urologia-hospital-sur",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Urologia",
+        "hospital": "Hospital Sur",
+        "hospital_id": "sur",
+        "distrito": "Sur",
+        "copago": 45,
+        "coaseguro": "40%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": true,
+        "en_red": true
+      },
+      "contenido": "Plan Bronce, Urologia, Hospital Sur (distrito Sur). El Hospital Sur atiende Urologia y esta dentro de la red del Plan Bronce. Copago: 45.00 USD. Coaseguro: 40%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Urologia en el Hospital Sur, que copago tengo en Urologia con el Plan Bronce, cuanto me cuesta la consulta de Urologia en el Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | especialidad: Urologia | hospital: Hospital Sur | hospital_id: sur | distrito: Sur | copago: 45 | coaseguro: 40% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: true | en_red: true | documento: plan-bronce.md>\nPlan Bronce, Urologia, Hospital Sur (distrito Sur). El Hospital Sur atiende Urologia y esta dentro de la red del Plan Bronce. Copago: 45.00 USD. Coaseguro: 40%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Urologia en el Hospital Sur, que copago tengo en Urologia con el Plan Bronce, cuanto me cuesta la consulta de Urologia en el Hospital Sur.",
+      "caracteres": 716,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-cobertura-traumatologia-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Traumatologia",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 50,
+        "coaseguro": "40%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": true,
+        "en_red": true
+      },
+      "contenido": "Plan Bronce, Traumatologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Traumatologia y esta dentro de la red del Plan Bronce. Copago: 50.00 USD. Coaseguro: 40%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Traumatologia en el Clinica Norte, que copago tengo en Traumatologia con el Plan Bronce, cuanto me cuesta la consulta de Traumatologia en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | especialidad: Traumatologia | hospital: Clinica Norte | hospital_id: norte | distrito: Norte | copago: 50 | coaseguro: 40% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: true | en_red: true | documento: plan-bronce.md>\nPlan Bronce, Traumatologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Traumatologia y esta dentro de la red del Plan Bronce. Copago: 50.00 USD. Coaseguro: 40%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Traumatologia en el Clinica Norte, que copago tengo en Traumatologia con el Plan Bronce, cuanto me cuesta la consulta de Traumatologia en el Clinica Norte.",
+      "caracteres": 757,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-cobertura-traumatologia-hospital-sur",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Traumatologia",
+        "hospital": "Hospital Sur",
+        "hospital_id": "sur",
+        "distrito": "Sur",
+        "copago": 40,
+        "coaseguro": "40%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": true,
+        "en_red": true
+      },
+      "contenido": "Plan Bronce, Traumatologia, Hospital Sur (distrito Sur). El Hospital Sur atiende Traumatologia y esta dentro de la red del Plan Bronce. Copago: 40.00 USD. Coaseguro: 40%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Traumatologia en el Hospital Sur, que copago tengo en Traumatologia con el Plan Bronce, cuanto me cuesta la consulta de Traumatologia en el Hospital Sur.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-sur.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | especialidad: Traumatologia | hospital: Hospital Sur | hospital_id: sur | distrito: Sur | copago: 40 | coaseguro: 40% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: true | en_red: true | documento: plan-bronce.md>\nPlan Bronce, Traumatologia, Hospital Sur (distrito Sur). El Hospital Sur atiende Traumatologia y esta dentro de la red del Plan Bronce. Copago: 40.00 USD. Coaseguro: 40%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Traumatologia en el Hospital Sur, que copago tengo en Traumatologia con el Plan Bronce, cuanto me cuesta la consulta de Traumatologia en el Hospital Sur.",
+      "caracteres": 746,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-cobertura-dermatologia-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Dermatologia",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 55,
+        "coaseguro": "40%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": true,
+        "en_red": true
+      },
+      "contenido": "Plan Bronce, Dermatologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Dermatologia y esta dentro de la red del Plan Bronce. Copago: 55.00 USD. Coaseguro: 40%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Dermatologia en el Clinica Norte, que copago tengo en Dermatologia con el Plan Bronce, cuanto me cuesta la consulta de Dermatologia en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | especialidad: Dermatologia | hospital: Clinica Norte | hospital_id: norte | distrito: Norte | copago: 55 | coaseguro: 40% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: true | en_red: true | documento: plan-bronce.md>\nPlan Bronce, Dermatologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Dermatologia y esta dentro de la red del Plan Bronce. Copago: 55.00 USD. Coaseguro: 40%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Dermatologia en el Clinica Norte, que copago tengo en Dermatologia con el Plan Bronce, cuanto me cuesta la consulta de Dermatologia en el Clinica Norte.",
+      "caracteres": 751,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-cobertura-otorrinolaringologia-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Otorrinolaringologia",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 50,
+        "coaseguro": "40%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": true,
+        "en_red": true
+      },
+      "contenido": "Plan Bronce, Otorrinolaringologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Otorrinolaringologia y esta dentro de la red del Plan Bronce. Copago: 50.00 USD. Coaseguro: 40%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Otorrinolaringologia en el Clinica Norte, que copago tengo en Otorrinolaringologia con el Plan Bronce, cuanto me cuesta la consulta de Otorrinolaringologia en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | especialidad: Otorrinolaringologia | hospital: Clinica Norte | hospital_id: norte | distrito: Norte | copago: 50 | coaseguro: 40% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: true | en_red: true | documento: plan-bronce.md>\nPlan Bronce, Otorrinolaringologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Otorrinolaringologia y esta dentro de la red del Plan Bronce. Copago: 50.00 USD. Coaseguro: 40%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Otorrinolaringologia en el Clinica Norte, que copago tengo en Otorrinolaringologia con el Plan Bronce, cuanto me cuesta la consulta de Otorrinolaringologia en el Clinica Norte.",
+      "caracteres": 799,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-cobertura-ginecologia-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Ginecologia",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 45,
+        "coaseguro": "30%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": true,
+        "en_red": true
+      },
+      "contenido": "Plan Bronce, Ginecologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Ginecologia y esta dentro de la red del Plan Bronce. Copago: 45.00 USD. Coaseguro: 30%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Ginecologia en el Clinica Norte, que copago tengo en Ginecologia con el Plan Bronce, cuanto me cuesta la consulta de Ginecologia en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ],
+      "textoEmbebible": "<tipo: cobertura | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | especialidad: Ginecologia | hospital: Clinica Norte | hospital_id: norte | distrito: Norte | copago: 45 | coaseguro: 30% | moneda: USD | requiere_referencia: true | requiere_preautorizacion: true | en_red: true | documento: plan-bronce.md>\nPlan Bronce, Ginecologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Ginecologia y esta dentro de la red del Plan Bronce. Copago: 45.00 USD. Coaseguro: 30%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Ginecologia en el Clinica Norte, que copago tengo en Ginecologia con el Plan Bronce, cuanto me cuesta la consulta de Ginecologia en el Clinica Norte.",
+      "caracteres": 745,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-ranking-medicina-general",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "especialidad": "Medicina General",
+        "opciones": 2,
+        "hospital_mas_economico": "Hospital Sur",
+        "copago_minimo": 15,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Bronce, Medicina General, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 15.00 USD, despues Clinica Norte con 20.00 USD. Preguntas que responde: donde me sale mas barato Medicina General con el Plan Bronce, que hospital me conviene economicamente para Medicina General, cual es el centro mas economico para Medicina General.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: bronce | plan: Plan Bronce | especialidad: Medicina General | opciones: 2 | hospital_mas_economico: Hospital Sur | copago_minimo: 15 | moneda: USD | documento: plan-bronce.md>\nPlan Bronce, Medicina General, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 15.00 USD, despues Clinica Norte con 20.00 USD. Preguntas que responde: donde me sale mas barato Medicina General con el Plan Bronce, que hospital me conviene economicamente para Medicina General, cual es el centro mas economico para Medicina General.",
+      "caracteres": 612,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-ranking-urgencias",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "especialidad": "Urgencias",
+        "opciones": 2,
+        "hospital_mas_economico": "Hospital Sur",
+        "copago_minimo": 45,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Bronce, Urgencias, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 45.00 USD mas un coaseguro del 20%, despues Clinica Norte con 60.00 USD mas un coaseguro del 20%. Preguntas que responde: donde me sale mas barato Urgencias con el Plan Bronce, que hospital me conviene economicamente para Urgencias, cual es el centro mas economico para Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: bronce | plan: Plan Bronce | especialidad: Urgencias | opciones: 2 | hospital_mas_economico: Hospital Sur | copago_minimo: 45 | moneda: USD | documento: plan-bronce.md>\nPlan Bronce, Urgencias, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 45.00 USD mas un coaseguro del 20%, despues Clinica Norte con 60.00 USD mas un coaseguro del 20%. Preguntas que responde: donde me sale mas barato Urgencias con el Plan Bronce, que hospital me conviene economicamente para Urgencias, cual es el centro mas economico para Urgencias.",
+      "caracteres": 627,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-ranking-urologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "especialidad": "Urologia",
+        "opciones": 1,
+        "hospital_mas_economico": "Hospital Sur",
+        "copago_minimo": 45,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Bronce, Urologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 45.00 USD mas un coaseguro del 40%. Preguntas que responde: donde me sale mas barato Urologia con el Plan Bronce, que hospital me conviene economicamente para Urologia, cual es el centro mas economico para Urologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: bronce | plan: Plan Bronce | especialidad: Urologia | opciones: 1 | hospital_mas_economico: Hospital Sur | copago_minimo: 45 | moneda: USD | documento: plan-bronce.md>\nPlan Bronce, Urologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 45.00 USD mas un coaseguro del 40%. Preguntas que responde: donde me sale mas barato Urologia con el Plan Bronce, que hospital me conviene economicamente para Urologia, cual es el centro mas economico para Urologia.",
+      "caracteres": 560,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-ranking-traumatologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "especialidad": "Traumatologia",
+        "opciones": 2,
+        "hospital_mas_economico": "Hospital Sur",
+        "copago_minimo": 40,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Bronce, Traumatologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 40.00 USD mas un coaseguro del 40%, despues Clinica Norte con 50.00 USD mas un coaseguro del 40%. Preguntas que responde: donde me sale mas barato Traumatologia con el Plan Bronce, que hospital me conviene economicamente para Traumatologia, cual es el centro mas economico para Traumatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: bronce | plan: Plan Bronce | especialidad: Traumatologia | opciones: 2 | hospital_mas_economico: Hospital Sur | copago_minimo: 40 | moneda: USD | documento: plan-bronce.md>\nPlan Bronce, Traumatologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Sur con 40.00 USD mas un coaseguro del 40%, despues Clinica Norte con 50.00 USD mas un coaseguro del 40%. Preguntas que responde: donde me sale mas barato Traumatologia con el Plan Bronce, que hospital me conviene economicamente para Traumatologia, cual es el centro mas economico para Traumatologia.",
+      "caracteres": 647,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-ranking-dermatologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "especialidad": "Dermatologia",
+        "opciones": 1,
+        "hospital_mas_economico": "Clinica Norte",
+        "copago_minimo": 55,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Bronce, Dermatologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 55.00 USD mas un coaseguro del 40%. Preguntas que responde: donde me sale mas barato Dermatologia con el Plan Bronce, que hospital me conviene economicamente para Dermatologia, cual es el centro mas economico para Dermatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: bronce | plan: Plan Bronce | especialidad: Dermatologia | opciones: 1 | hospital_mas_economico: Clinica Norte | copago_minimo: 55 | moneda: USD | documento: plan-bronce.md>\nPlan Bronce, Dermatologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 55.00 USD mas un coaseguro del 40%. Preguntas que responde: donde me sale mas barato Dermatologia con el Plan Bronce, que hospital me conviene economicamente para Dermatologia, cual es el centro mas economico para Dermatologia.",
+      "caracteres": 582,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-ranking-otorrinolaringologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "especialidad": "Otorrinolaringologia",
+        "opciones": 1,
+        "hospital_mas_economico": "Clinica Norte",
+        "copago_minimo": 50,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Bronce, Otorrinolaringologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 50.00 USD mas un coaseguro del 40%. Preguntas que responde: donde me sale mas barato Otorrinolaringologia con el Plan Bronce, que hospital me conviene economicamente para Otorrinolaringologia, cual es el centro mas economico para Otorrinolaringologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: bronce | plan: Plan Bronce | especialidad: Otorrinolaringologia | opciones: 1 | hospital_mas_economico: Clinica Norte | copago_minimo: 50 | moneda: USD | documento: plan-bronce.md>\nPlan Bronce, Otorrinolaringologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 50.00 USD mas un coaseguro del 40%. Preguntas que responde: donde me sale mas barato Otorrinolaringologia con el Plan Bronce, que hospital me conviene economicamente para Otorrinolaringologia, cual es el centro mas economico para Otorrinolaringologia.",
+      "caracteres": 622,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-ranking-ginecologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "especialidad": "Ginecologia",
+        "opciones": 1,
+        "hospital_mas_economico": "Clinica Norte",
+        "copago_minimo": 45,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Bronce, Ginecologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 45.00 USD mas un coaseguro del 30%. Preguntas que responde: donde me sale mas barato Ginecologia con el Plan Bronce, que hospital me conviene economicamente para Ginecologia, cual es el centro mas economico para Ginecologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ],
+      "textoEmbebible": "<tipo: ranking | plan_id: bronce | plan: Plan Bronce | especialidad: Ginecologia | opciones: 1 | hospital_mas_economico: Clinica Norte | copago_minimo: 45 | moneda: USD | documento: plan-bronce.md>\nPlan Bronce, Ginecologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 45.00 USD mas un coaseguro del 30%. Preguntas que responde: donde me sale mas barato Ginecologia con el Plan Bronce, que hospital me conviene economicamente para Ginecologia, cual es el centro mas economico para Ginecologia.",
+      "caracteres": 577,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-condicion-condiciones-generales-1",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Bronce, Condiciones generales. El Plan Bronce es el plan de entrada. Cubre consulta de medicina general sin referencia. Toda consulta de especialidad requiere referencia del medico de cabecera y, ademas, preautorizacion de la aseguradora.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Condiciones generales"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | seccion: Condiciones generales | documento: plan-bronce.md>\nPlan Bronce, Condiciones generales. El Plan Bronce es el plan de entrada. Cubre consulta de medicina general sin referencia. Toda consulta de especialidad requiere referencia del medico de cabecera y, ademas, preautorizacion de la aseguradora.",
+      "caracteres": 393,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-condicion-condiciones-generales-2",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Bronce, Condiciones generales. El deducible anual es de 900 USD y se aplica a todo servicio distinto de la consulta de medicina general.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Condiciones generales"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | seccion: Condiciones generales | documento: plan-bronce.md>\nPlan Bronce, Condiciones generales. El deducible anual es de 900 USD y se aplica a todo servicio distinto de la consulta de medicina general.",
+      "caracteres": 291,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-condicion-condiciones-generales-3",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Bronce, Condiciones generales. Las enfermedades preexistentes, declaradas o no, quedan excluidas durante los primeros 24 meses de vigencia de la poliza.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Condiciones generales"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | seccion: Condiciones generales | documento: plan-bronce.md>\nPlan Bronce, Condiciones generales. Las enfermedades preexistentes, declaradas o no, quedan excluidas durante los primeros 24 meses de vigencia de la poliza.",
+      "caracteres": 307,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-condicion-condiciones-generales-4",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Bronce, Condiciones generales. Se considera urgencia unicamente el cuadro que ponga en riesgo inmediato la vida. La atencion de urgencia fuera de la red no genera reembolso en ningun caso.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Condiciones generales"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | seccion: Condiciones generales | documento: plan-bronce.md>\nPlan Bronce, Condiciones generales. Se considera urgencia unicamente el cuadro que ponga en riesgo inmediato la vida. La atencion de urgencia fuera de la red no genera reembolso en ningun caso.",
+      "caracteres": 343,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-condicion-red-de-proveedores-1",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Red de proveedores"
+      },
+      "contenido": "Plan Bronce, Red de proveedores. El Hospital Central no forma parte de la red del Plan Bronce. Esto implica que las especialidades que solo se prestan en ese centro, como Cardiologia, no estan disponibles dentro de la red de este plan.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Red de proveedores"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | seccion: Red de proveedores | documento: plan-bronce.md>\nPlan Bronce, Red de proveedores. El Hospital Central no forma parte de la red del Plan Bronce. Esto implica que las especialidades que solo se prestan en ese centro, como Cardiologia, no estan disponibles dentro de la red de este plan.",
+      "caracteres": 382,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-condicion-especialidades-no-disponibles-en-red-1",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Especialidades no disponibles en red"
+      },
+      "contenido": "Plan Bronce, Especialidades no disponibles en red. Cardiologia no esta disponible en la red del Plan Bronce, porque el unico centro que la presta es el Hospital Central y ese centro esta fuera de red. El asegurado que requiera Cardiologia debe asumir el coste completo o solicitar un cambio de plan.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Especialidades no disponibles en red"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | seccion: Especialidades no disponibles en red | documento: plan-bronce.md>\nPlan Bronce, Especialidades no disponibles en red. Cardiologia no esta disponible en la red del Plan Bronce, porque el unico centro que la presta es el Hospital Central y ese centro esta fuera de red. El asegurado que requiera Cardiologia debe asumir el coste completo o solicitar un cambio de plan.",
+      "caracteres": 464,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    },
+    {
+      "id": "bronce-condicion-exclusiones-1",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "bronce",
+        "plan": "Plan Bronce",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Exclusiones"
+      },
+      "contenido": "Plan Bronce, Exclusiones. Ademas de las exclusiones generales, el Plan Bronce excluye la rehabilitacion, la psicoterapia, los aparatos auditivos, la cirugia ambulatoria programada y el control de embarazo.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-bronce.md",
+          "seccion": "Exclusiones"
+        }
+      ],
+      "textoEmbebible": "<tipo: condicion | plan_id: bronce | plan: Plan Bronce | aseguradora: Seguros Meridiano | seccion: Exclusiones | documento: plan-bronce.md>\nPlan Bronce, Exclusiones. Ademas de las exclusiones generales, el Plan Bronce excluye la rehabilitacion, la psicoterapia, los aparatos auditivos, la cirugia ambulatoria programada y el control de embarazo.",
+      "caracteres": 345,
+      "embedding": {
+        "modelo": null,
+        "dimensiones": null,
+        "vector": null,
+        "generado": null
+      }
+    }
+  ]
+}

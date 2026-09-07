@@ -1,0 +1,175 @@
+{
+  "documento": {
+    "familia": "hospitales",
+    "archivo": "hospital-central.md",
+    "ruta": "documentos/insumos/hospitales/hospital-central.md",
+    "hash": "sha256:819f2be6530e9c97",
+    "frontmatter": {
+      "hospital_id": "central",
+      "nombre": "Hospital Central",
+      "distrito": "Centro",
+      "nivel": "terciario",
+      "version": "2026-01"
+    },
+    "generado": "2026-09-07T02:17:00.035Z"
+  },
+  "total": 9,
+  "porTipo": {
+    "hospital": 9
+  },
+  "chunks": [
+    {
+      "id": "hospital-central-general",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "central",
+        "hospital": "Hospital Central",
+        "distrito": "Centro",
+        "nivel": "terciario"
+      },
+      "contenido": "Hospital Central, distrito Centro, centro de nivel terciario. El Hospital Central es un centro terciario situado en el distrito Centro, en la avenida Principal 120. Es el hospital de mayor complejidad de la red y el unico que dispone de unidad de hemodinamia y cuidados intensivos cardiologicos. El servicio de urgencias atiende 24 horas todos los dias del ano, incluidos festivos. Las consultas externas de especialidad atienden de lunes a viernes de 7:00 a 19:00 y los sabados de 8:00 a 13:00. Para consulta de especialidad se requiere cita previa. El centro dispone de estacionamiento propio con tarifa reducida para pacientes con cita confirmada. El tiempo medio de espera para una primera consulta de especialidad es de 12 dias habiles, salvo Cardiologia, que puede llegar a 20 dias. Los estudios de imagen (radiografia, ecografia, tomografia) se realizan en el propio centro sin necesidad de desplazarse. Los resultados de laboratorio se entregan en el portal del paciente en un plazo de 48 horas. Si el paciente acude a urgencias y el cuadro no reviste gravedad, el centro puede derivarlo a consulta de medicina general del dia siguiente.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Sobre el centro"
+        }
+      ]
+    },
+    {
+      "id": "hospital-central-servicio-medicina-general",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "central",
+        "hospital": "Hospital Central",
+        "distrito": "Centro",
+        "especialidad": "Medicina General"
+      },
+      "contenido": "Hospital Central atiende Medicina General. Sin cita previa hasta las 11:00. Preguntas que responde: el Hospital Central tiene Medicina General, donde puedo ver un especialista de Medicina General, que especialidades atiende el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "hospital-central-servicio-urgencias",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "central",
+        "hospital": "Hospital Central",
+        "distrito": "Centro",
+        "especialidad": "Urgencias"
+      },
+      "contenido": "Hospital Central atiende Urgencias. 24 horas, todos los dias. Preguntas que responde: el Hospital Central tiene Urgencias, donde puedo ver un especialista de Urgencias, que especialidades atiende el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "hospital-central-servicio-urologia",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "central",
+        "hospital": "Hospital Central",
+        "distrito": "Centro",
+        "especialidad": "Urologia"
+      },
+      "contenido": "Hospital Central atiende Urologia. Consulta y cirugia ambulatoria. Preguntas que responde: el Hospital Central tiene Urologia, donde puedo ver un especialista de Urologia, que especialidades atiende el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "hospital-central-servicio-traumatologia",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "central",
+        "hospital": "Hospital Central",
+        "distrito": "Centro",
+        "especialidad": "Traumatologia"
+      },
+      "contenido": "Hospital Central atiende Traumatologia. Incluye rehabilitacion en el mismo centro. Preguntas que responde: el Hospital Central tiene Traumatologia, donde puedo ver un especialista de Traumatologia, que especialidades atiende el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "hospital-central-servicio-cardiologia",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "central",
+        "hospital": "Hospital Central",
+        "distrito": "Centro",
+        "especialidad": "Cardiologia"
+      },
+      "contenido": "Hospital Central atiende Cardiologia. Unico centro de la red con hemodinamia. Preguntas que responde: el Hospital Central tiene Cardiologia, donde puedo ver un especialista de Cardiologia, que especialidades atiende el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "hospital-central-servicio-dermatologia",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "central",
+        "hospital": "Hospital Central",
+        "distrito": "Centro",
+        "especialidad": "Dermatologia"
+      },
+      "contenido": "Hospital Central atiende Dermatologia. Incluye dermatologia oncologica. Preguntas que responde: el Hospital Central tiene Dermatologia, donde puedo ver un especialista de Dermatologia, que especialidades atiende el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "hospital-central-servicio-otorrinolaringologia",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "central",
+        "hospital": "Hospital Central",
+        "distrito": "Centro",
+        "especialidad": "Otorrinolaringologia"
+      },
+      "contenido": "Hospital Central atiende Otorrinolaringologia. Audiometria en el mismo centro. Preguntas que responde: el Hospital Central tiene Otorrinolaringologia, donde puedo ver un especialista de Otorrinolaringologia, que especialidades atiende el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "hospital-central-servicio-ginecologia",
+      "tipo": "hospital",
+      "metadata": {
+        "hospital_id": "central",
+        "hospital": "Hospital Central",
+        "distrito": "Centro",
+        "especialidad": "Ginecologia"
+      },
+      "contenido": "Hospital Central atiende Ginecologia. Incluye control de embarazo. Preguntas que responde: el Hospital Central tiene Ginecologia, donde puedo ver un especialista de Ginecologia, que especialidades atiende el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "documento": {
+    "familia": "clinico",
+    "archivo": "sintomas-comunes.md",
+    "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+    "hash": "sha256:75f7a93dc998fc7c",
+    "frontmatter": {
+      "tipo": "mapa-sintomas",
+      "ambito": "comunes",
+      "version": "2026-01"
+    },
+    "generado": "2026-09-07T02:17:00.035Z"
+  },
+  "total": 24,
+  "porTipo": {
+    "sintoma": 24
+  },
+  "chunks": [
+    {
+      "id": "sintoma-comunes-001",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Medicina General",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"tengo fiebre desde hace dos dias\". Especialidad sugerida: Medicina General.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-002",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Medicina General",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me siento resfriado y con malestar general\". Especialidad sugerida: Medicina General.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-003",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Medicina General",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"llevo una semana con tos y no se me quita\". Especialidad sugerida: Medicina General.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-004",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Medicina General",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"estoy cansado todo el tiempo sin razon\". Especialidad sugerida: Medicina General.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-005",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Medicina General",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"necesito que me revisen unos analisis\". Especialidad sugerida: Medicina General.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-006",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Otorrinolaringologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me duele la garganta al tragar\". Especialidad sugerida: Otorrinolaringologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-007",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Otorrinolaringologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"tengo el oido tapado y oigo menos\". Especialidad sugerida: Otorrinolaringologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-008",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Otorrinolaringologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me pita el oido y no para\". Especialidad sugerida: Otorrinolaringologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-009",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Otorrinolaringologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"llevo semanas con la nariz congestionada\". Especialidad sugerida: Otorrinolaringologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-010",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Otorrinolaringologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"se me va la voz y me dura dias\". Especialidad sugerida: Otorrinolaringologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-011",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Dermatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me salio una mancha en la piel que antes no tenia\". Especialidad sugerida: Dermatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-012",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Dermatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"tengo un lunar que cambio de color\". Especialidad sugerida: Dermatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-013",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Dermatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me pica todo el cuerpo y me salen ronchas\". Especialidad sugerida: Dermatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-014",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Dermatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"se me esta cayendo mucho el pelo\". Especialidad sugerida: Dermatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-015",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Dermatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"tengo un sarpullido que no se me va\". Especialidad sugerida: Dermatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-016",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Ginecologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"tengo un retraso en la regla\". Especialidad sugerida: Ginecologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-017",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Ginecologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me baja mucho y con dolor cada mes\". Especialidad sugerida: Ginecologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-018",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Ginecologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"necesito un control de embarazo\". Especialidad sugerida: Ginecologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-019",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Ginecologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"tengo molestias e irritacion en la zona intima\". Especialidad sugerida: Ginecologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-020",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Ginecologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"quiero informacion sobre planificacion familiar\". Especialidad sugerida: Ginecologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-021",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Cardiologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"siento que el corazon se me acelera de golpe estando quieto\". Especialidad sugerida: Cardiologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-022",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Cardiologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me canso mucho al subir escaleras desde hace meses\". Especialidad sugerida: Cardiologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-023",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Cardiologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me han dicho que tengo la presion alta\". Especialidad sugerida: Cardiologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-comunes-024",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "comunes",
+        "especialidad": "Cardiologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"siento palpitaciones por las noches\". Especialidad sugerida: Cardiologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-comunes.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    }
+  ]
+}
