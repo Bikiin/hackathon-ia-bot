@@ -4,6 +4,8 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 import { generateText, isStepCount } from "ai";
 
+import { conReintento } from "@/lib/reintentar";
+
 import { instruccionesPara } from "@/lib/ai/instrucciones";
 import { MAX_STEPS, opcionesDe } from "@/lib/ai/models";
 import { buildChatTools } from "@/lib/ai/tools";
@@ -11,8 +13,6 @@ import { obtenerPaciente } from "@/lib/db/consultas";
 
 const MODELOS = process.argv.slice(2);
 const SALIDA = "documentos/eval";
-const REINTENTOS = 8;
-const ESPERA_MS = 45000;
 
 type Pregunta = {
   id: string;
@@ -149,9 +149,9 @@ async function ejecutar(pregunta: Pregunta, modelo: string): Promise<Ejecucion> 
     throw new Error(`paciente ${pregunta.paciente} no existe`);
   }
 
-  for (let intento = 1; intento <= REINTENTOS; intento++) {
-    try {
-      const r = await generateText({
+  const r = await conReintento(
+    () =>
+      generateText({
         model: modelo,
         temperature: 0,
         providerOptions: opcionesDe(modelo),
@@ -159,48 +159,28 @@ async function ejecutar(pregunta: Pregunta, modelo: string): Promise<Ejecucion> 
         messages: [{ role: "user", content: pregunta.texto }],
         stopWhen: isStepCount(MAX_STEPS),
         tools: buildChatTools(paciente.planId),
-      });
+        maxRetries: 0,
+      }),
+    {
+      alEsperar: (espera, intento) =>
+        process.stdout.write(` [cuota ${intento}, ${Math.round(espera / 1000)}s]`),
+    },
+  );
 
-      const llamadas = r.steps.flatMap((paso) =>
-        paso.toolCalls.map((llamada) => {
-          const input = llamada.input as {
-            tipo: string;
-            alcance: string;
-            consulta: string;
-          };
-          return input;
-        }),
-      );
+  const llamadas = r.steps.flatMap((paso) =>
+    paso.toolCalls.map(
+      (llamada) => llamada.input as { tipo: string; alcance: string; consulta: string },
+    ),
+  );
 
-      return {
-        pregunta,
-        modelo,
-        llamadas,
-        respuesta: r.text,
-        tokens: r.totalUsage?.totalTokens ?? 0,
-        fallo: null,
-      };
-    } catch (error) {
-      const mensaje = String(error);
-      const esCuota = mensaje.includes("rate") || mensaje.includes("Free tier");
-
-      if (!esCuota || intento === REINTENTOS) {
-        return {
-          pregunta,
-          modelo,
-          llamadas: [],
-          respuesta: "",
-          tokens: 0,
-          fallo: esCuota ? "rate limit" : mensaje.slice(0, 120),
-        };
-      }
-
-      process.stdout.write(` [cuota, espero ${ESPERA_MS / 1000}s]`);
-      await dormir(ESPERA_MS);
-    }
-  }
-
-  throw new Error("inalcanzable");
+  return {
+    pregunta,
+    modelo,
+    llamadas,
+    respuesta: r.text,
+    tokens: r.totalUsage?.totalTokens ?? 0,
+    fallo: null,
+  };
 }
 
 function corregir(e: Ejecucion) {

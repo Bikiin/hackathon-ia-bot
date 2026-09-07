@@ -2,6 +2,7 @@ import { embed } from "ai";
 import { and, cosineDistance, desc, eq, gt, inArray, sql } from "drizzle-orm";
 
 import { db } from "@/lib/db";
+import { conReintento } from "@/lib/reintentar";
 import { chunks } from "@/lib/db/schema/chunks";
 import type { Fuente, Metadata, TipoChunk } from "@/lib/ingesta/tipos";
 
@@ -18,31 +19,20 @@ const LIMITES: Record<TipoChunk, number> = {
 };
 
 const UMBRAL_MINIMO = 0.15;
-const REINTENTOS = 4;
-const ESPERA_BASE_MS = 4000;
-
-const dormir = (ms: number) => new Promise((r) => setTimeout(r, ms));
+const PRESUPUESTO_MS = 20000;
 
 async function embeberConsulta(consulta: string): Promise<number[]> {
-  for (let intento = 1; intento <= REINTENTOS; intento++) {
-    try {
+  return conReintento(
+    async () => {
       const { embedding } = await embed({
         model: EMBEDDING_MODEL,
         value: consulta.replaceAll("\n", " "),
+        maxRetries: 0,
       });
       return embedding;
-    } catch (error) {
-      const esCuota = /rate|Free tier/.test(String(error));
-
-      if (!esCuota || intento === REINTENTOS) {
-        throw error;
-      }
-
-      await dormir(ESPERA_BASE_MS * intento);
-    }
-  }
-
-  throw new Error("inalcanzable");
+    },
+    { presupuestoMs: PRESUPUESTO_MS },
+  );
 }
 
 export type Alcance = "mi_plan" | "todos_los_planes";

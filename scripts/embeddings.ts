@@ -6,6 +6,7 @@ import { join } from "node:path";
 import { embedMany } from "ai";
 
 import { EMBEDDING_DIMENSIONS, EMBEDDING_MODEL } from "@/lib/ai/models";
+import { conReintento } from "@/lib/reintentar";
 import type { ArchivoProcesado, ChunkProcesado } from "@/lib/ingesta/tipos";
 
 const PROCESSED = "documentos/processed";
@@ -60,28 +61,15 @@ function escribir(ruta: string, archivo: ArchivoProcesado): void {
 }
 
 async function embeberLote(valores: string[]): Promise<number[][]> {
-  for (let intento = 1; intento <= REINTENTOS; intento++) {
-    try {
-      const { embeddings } = await embedMany({
-        model: EMBEDDING_MODEL,
-        values: valores,
-      });
-      return embeddings;
-    } catch (error) {
-      const mensaje = String(error);
-      const esCuota =
-        mensaje.includes("rate") || mensaje.includes("Free tier");
+  const { embeddings } = await conReintento(
+    () => embedMany({ model: EMBEDDING_MODEL, values: valores, maxRetries: 0 }),
+    {
+      alEsperar: (espera, intento) =>
+        console.log(`    cuota agotada, intento ${intento}, espero ${Math.round(espera / 1000)}s`),
+    },
+  );
 
-      if (!esCuota || intento === REINTENTOS) {
-        throw error;
-      }
-
-      console.log(`    cuota agotada, intento ${intento}, espero ${ESPERA_MS / 1000}s`);
-      await dormir(ESPERA_MS);
-    }
-  }
-
-  throw new Error("reintentos agotados");
+  return embeddings;
 }
 
 async function main(): Promise<void> {
