@@ -7,7 +7,7 @@ import type { Fuente, Metadata, TipoChunk } from "@/lib/ingesta/tipos";
 
 import { EMBEDDING_MODEL } from "./models";
 
-const SIN_FILTRO_DE_PLAN: TipoChunk[] = ["sintoma", "hospital"];
+const SIN_PLAN: TipoChunk[] = ["sintoma", "hospital"];
 
 const LIMITES: Record<TipoChunk, number> = {
   sintoma: 5,
@@ -19,9 +19,13 @@ const LIMITES: Record<TipoChunk, number> = {
 
 const UMBRAL_MINIMO = 0.15;
 
+export type Alcance = "mi_plan" | "todos_los_planes";
+
 export type Resultado = {
   id: string;
   tipo: TipoChunk;
+  plan: string | null;
+  esSuPlan: boolean;
   similitud: number;
   contenido: string;
   metadata: Metadata;
@@ -31,12 +35,14 @@ export type Resultado = {
 export type Busqueda = {
   consulta: string;
   tipo: TipoChunk;
+  alcance: Alcance;
   planId: string;
 };
 
 export async function buscar({
   consulta,
   tipo,
+  alcance,
   planId,
 }: Busqueda): Promise<Resultado[]> {
   const { embedding } = await embed({
@@ -46,18 +52,19 @@ export async function buscar({
 
   const similitud = sql<number>`1 - (${cosineDistance(chunks.embedding, embedding)})`;
 
+  const acotado = !SIN_PLAN.includes(tipo) && alcance === "mi_plan";
+
   const filtros = [
     eq(chunks.tipo, tipo),
     gt(similitud, UMBRAL_MINIMO),
-    ...(SIN_FILTRO_DE_PLAN.includes(tipo)
-      ? []
-      : [inArray(chunks.planId, [planId])]),
+    ...(acotado ? [inArray(chunks.planId, [planId])] : []),
   ];
 
   const filas = await db
     .select({
       id: chunks.id,
       tipo: chunks.tipo,
+      planId: chunks.planId,
       similitud,
       contenido: chunks.contenido,
       metadata: chunks.metadata,
@@ -68,8 +75,10 @@ export async function buscar({
     .orderBy((fila) => desc(fila.similitud))
     .limit(LIMITES[tipo]);
 
-  return filas.map((fila) => ({
+  return filas.map(({ planId: planDelChunk, ...fila }) => ({
     ...fila,
+    plan: (fila.metadata.plan as string) ?? null,
+    esSuPlan: planDelChunk === null || planDelChunk === planId,
     similitud: Number(fila.similitud.toFixed(3)),
   }));
 }
