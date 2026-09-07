@@ -18,6 +18,32 @@ const LIMITES: Record<TipoChunk, number> = {
 };
 
 const UMBRAL_MINIMO = 0.15;
+const REINTENTOS = 4;
+const ESPERA_BASE_MS = 4000;
+
+const dormir = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+async function embeberConsulta(consulta: string): Promise<number[]> {
+  for (let intento = 1; intento <= REINTENTOS; intento++) {
+    try {
+      const { embedding } = await embed({
+        model: EMBEDDING_MODEL,
+        value: consulta.replaceAll("\n", " "),
+      });
+      return embedding;
+    } catch (error) {
+      const esCuota = /rate|Free tier/.test(String(error));
+
+      if (!esCuota || intento === REINTENTOS) {
+        throw error;
+      }
+
+      await dormir(ESPERA_BASE_MS * intento);
+    }
+  }
+
+  throw new Error("inalcanzable");
+}
 
 export type Alcance = "mi_plan" | "todos_los_planes";
 
@@ -45,10 +71,7 @@ export async function buscar({
   alcance,
   planId,
 }: Busqueda): Promise<Resultado[]> {
-  const { embedding } = await embed({
-    model: EMBEDDING_MODEL,
-    value: consulta.replaceAll("\n", " "),
-  });
+  const embedding = await embeberConsulta(consulta);
 
   const similitud = sql<number>`1 - (${cosineDistance(chunks.embedding, embedding)})`;
 

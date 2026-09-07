@@ -6,15 +6,13 @@ import {
   toUIMessageStream,
 } from "ai";
 
-import { CHAT_MODEL, CHAT_PROVIDER_OPTIONS } from "@/lib/ai/models";
-import { CHAT_INSTRUCTIONS } from "@/lib/ai/prompts";
+import { instruccionesPara } from "@/lib/ai/instrucciones";
+import { CHAT_MODEL, CHAT_PROVIDER_OPTIONS, MAX_STEPS } from "@/lib/ai/models";
 import { buildChatTools } from "@/lib/ai/tools";
 import type { ChatMessage } from "@/lib/ai/types";
 import { obtenerPaciente } from "@/lib/db/consultas";
 
 export const maxDuration = 30;
-
-const MAX_STEPS = 12;
 
 type Peticion = {
   messages: ChatMessage[];
@@ -34,9 +32,7 @@ export async function POST(request: Request) {
     model: CHAT_MODEL,
     temperature: 0,
     providerOptions: CHAT_PROVIDER_OPTIONS,
-    instructions: `${CHAT_INSTRUCTIONS}
-
-Atiendes a ${paciente.nombre}, afiliado ${paciente.numeroAfiliado}, con ${paciente.plan}. Toda busqueda de cobertura, comparativa o condiciones se filtra sola por ese plan: no preguntes cual tiene ni aceptes que te digan otro.`,
+    instructions: instruccionesPara(paciente),
     messages: await convertToModelMessages(messages),
     stopWhen: isStepCount(MAX_STEPS),
     tools: buildChatTools(paciente.planId),
