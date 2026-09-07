@@ -1,0 +1,725 @@
+{
+  "documento": {
+    "familia": "polizas",
+    "archivo": "plan-plata.md",
+    "ruta": "documentos/insumos/polizas/plan-plata.md",
+    "hash": "sha256:cd2f1b063c2c337c",
+    "frontmatter": {
+      "plan_id": "plata",
+      "nombre": "Plan Plata",
+      "aseguradora": "Seguros Meridiano",
+      "deducible_anual": "400",
+      "tope_anual": "120000",
+      "moneda": "USD",
+      "version": "2026-01"
+    },
+    "generado": "2026-09-07T02:17:00.035Z"
+  },
+  "total": 29,
+  "porTipo": {
+    "cobertura": 14,
+    "ranking": 8,
+    "condicion": 7
+  },
+  "chunks": [
+    {
+      "id": "plata-cobertura-medicina-general-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Medicina General",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 15,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Medicina General, Hospital Central (distrito Centro). El Hospital Central atiende Medicina General y esta dentro de la red del Plan Plata. Copago: 15.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Medicina General en el Hospital Central, que copago tengo en Medicina General con el Plan Plata, cuanto me cuesta la consulta de Medicina General en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-medicina-general-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Medicina General",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 12,
+        "coaseguro": "0%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Medicina General, Clinica Norte (distrito Norte). El Clinica Norte atiende Medicina General y esta dentro de la red del Plan Plata. Copago: 12.00 USD. Coaseguro: 0%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Medicina General en el Clinica Norte, que copago tengo en Medicina General con el Plan Plata, cuanto me cuesta la consulta de Medicina General en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-urgencias-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Urgencias",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 40,
+        "coaseguro": "10%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Urgencias, Hospital Central (distrito Centro). El Hospital Central atiende Urgencias y esta dentro de la red del Plan Plata. Copago: 40.00 USD. Coaseguro: 10%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urgencias en el Hospital Central, que copago tengo en Urgencias con el Plan Plata, cuanto me cuesta la consulta de Urgencias en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-urgencias-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Urgencias",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 30,
+        "coaseguro": "10%",
+        "moneda": "USD",
+        "requiere_referencia": false,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Urgencias, Clinica Norte (distrito Norte). El Clinica Norte atiende Urgencias y esta dentro de la red del Plan Plata. Copago: 30.00 USD. Coaseguro: 10%. Requiere referencia: no. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urgencias en el Clinica Norte, que copago tengo en Urgencias con el Plan Plata, cuanto me cuesta la consulta de Urgencias en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-urologia-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Urologia",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 35,
+        "coaseguro": "20%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Urologia, Hospital Central (distrito Centro). El Hospital Central atiende Urologia y esta dentro de la red del Plan Plata. Copago: 35.00 USD. Coaseguro: 20%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Urologia en el Hospital Central, que copago tengo en Urologia con el Plan Plata, cuanto me cuesta la consulta de Urologia en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-traumatologia-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Traumatologia",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 35,
+        "coaseguro": "20%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Traumatologia, Hospital Central (distrito Centro). El Hospital Central atiende Traumatologia y esta dentro de la red del Plan Plata. Copago: 35.00 USD. Coaseguro: 20%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Traumatologia en el Hospital Central, que copago tengo en Traumatologia con el Plan Plata, cuanto me cuesta la consulta de Traumatologia en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-traumatologia-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Traumatologia",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 28,
+        "coaseguro": "20%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Traumatologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Traumatologia y esta dentro de la red del Plan Plata. Copago: 28.00 USD. Coaseguro: 20%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Traumatologia en el Clinica Norte, que copago tengo en Traumatologia con el Plan Plata, cuanto me cuesta la consulta de Traumatologia en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-cardiologia-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Cardiologia",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 50,
+        "coaseguro": "30%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": true,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Cardiologia, Hospital Central (distrito Centro). El Hospital Central atiende Cardiologia y esta dentro de la red del Plan Plata. Copago: 50.00 USD. Coaseguro: 30%. Requiere referencia: si. Requiere preautorizacion: si. Preguntas que responde: cuanto pago por Cardiologia en el Hospital Central, que copago tengo en Cardiologia con el Plan Plata, cuanto me cuesta la consulta de Cardiologia en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-dermatologia-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Dermatologia",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 35,
+        "coaseguro": "20%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Dermatologia, Hospital Central (distrito Centro). El Hospital Central atiende Dermatologia y esta dentro de la red del Plan Plata. Copago: 35.00 USD. Coaseguro: 20%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Dermatologia en el Hospital Central, que copago tengo en Dermatologia con el Plan Plata, cuanto me cuesta la consulta de Dermatologia en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-dermatologia-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Dermatologia",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 30,
+        "coaseguro": "20%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Dermatologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Dermatologia y esta dentro de la red del Plan Plata. Copago: 30.00 USD. Coaseguro: 20%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Dermatologia en el Clinica Norte, que copago tengo en Dermatologia con el Plan Plata, cuanto me cuesta la consulta de Dermatologia en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-otorrinolaringologia-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Otorrinolaringologia",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 35,
+        "coaseguro": "20%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Otorrinolaringologia, Hospital Central (distrito Centro). El Hospital Central atiende Otorrinolaringologia y esta dentro de la red del Plan Plata. Copago: 35.00 USD. Coaseguro: 20%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Otorrinolaringologia en el Hospital Central, que copago tengo en Otorrinolaringologia con el Plan Plata, cuanto me cuesta la consulta de Otorrinolaringologia en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-otorrinolaringologia-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Otorrinolaringologia",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 26,
+        "coaseguro": "20%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Otorrinolaringologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Otorrinolaringologia y esta dentro de la red del Plan Plata. Copago: 26.00 USD. Coaseguro: 20%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Otorrinolaringologia en el Clinica Norte, que copago tengo en Otorrinolaringologia con el Plan Plata, cuanto me cuesta la consulta de Otorrinolaringologia en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-ginecologia-hospital-central",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Ginecologia",
+        "hospital": "Hospital Central",
+        "hospital_id": "central",
+        "distrito": "Centro",
+        "copago": 30,
+        "coaseguro": "10%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Ginecologia, Hospital Central (distrito Centro). El Hospital Central atiende Ginecologia y esta dentro de la red del Plan Plata. Copago: 30.00 USD. Coaseguro: 10%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Ginecologia en el Hospital Central, que copago tengo en Ginecologia con el Plan Plata, cuanto me cuesta la consulta de Ginecologia en el Hospital Central.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/hospital-central.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-cobertura-ginecologia-clinica-norte",
+      "tipo": "cobertura",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "especialidad": "Ginecologia",
+        "hospital": "Clinica Norte",
+        "hospital_id": "norte",
+        "distrito": "Norte",
+        "copago": 25,
+        "coaseguro": "10%",
+        "moneda": "USD",
+        "requiere_referencia": true,
+        "requiere_preautorizacion": false,
+        "en_red": true
+      },
+      "contenido": "Plan Plata, Ginecologia, Clinica Norte (distrito Norte). El Clinica Norte atiende Ginecologia y esta dentro de la red del Plan Plata. Copago: 25.00 USD. Coaseguro: 10%. Requiere referencia: si. Requiere preautorizacion: no. Preguntas que responde: cuanto pago por Ginecologia en el Clinica Norte, que copago tengo en Ginecologia con el Plan Plata, cuanto me cuesta la consulta de Ginecologia en el Clinica Norte.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        },
+        {
+          "ruta": "documentos/insumos/hospitales/clinica-norte.md",
+          "seccion": "Cartera de servicios"
+        }
+      ]
+    },
+    {
+      "id": "plata-ranking-medicina-general",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "especialidad": "Medicina General",
+        "opciones": 2,
+        "hospital_mas_economico": "Clinica Norte",
+        "copago_minimo": 12,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Plata, Medicina General, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 12.00 USD, despues Hospital Central con 15.00 USD. Preguntas que responde: donde me sale mas barato Medicina General con el Plan Plata, que hospital me conviene economicamente para Medicina General, cual es el centro mas economico para Medicina General.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ]
+    },
+    {
+      "id": "plata-ranking-urgencias",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "especialidad": "Urgencias",
+        "opciones": 2,
+        "hospital_mas_economico": "Clinica Norte",
+        "copago_minimo": 30,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Plata, Urgencias, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 30.00 USD mas un coaseguro del 10%, despues Hospital Central con 40.00 USD mas un coaseguro del 10%. Preguntas que responde: donde me sale mas barato Urgencias con el Plan Plata, que hospital me conviene economicamente para Urgencias, cual es el centro mas economico para Urgencias.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ]
+    },
+    {
+      "id": "plata-ranking-urologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "especialidad": "Urologia",
+        "opciones": 1,
+        "hospital_mas_economico": "Hospital Central",
+        "copago_minimo": 35,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Plata, Urologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Central con 35.00 USD mas un coaseguro del 20%. Preguntas que responde: donde me sale mas barato Urologia con el Plan Plata, que hospital me conviene economicamente para Urologia, cual es el centro mas economico para Urologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ]
+    },
+    {
+      "id": "plata-ranking-traumatologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "especialidad": "Traumatologia",
+        "opciones": 2,
+        "hospital_mas_economico": "Clinica Norte",
+        "copago_minimo": 28,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Plata, Traumatologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 28.00 USD mas un coaseguro del 20%, despues Hospital Central con 35.00 USD mas un coaseguro del 20%. Preguntas que responde: donde me sale mas barato Traumatologia con el Plan Plata, que hospital me conviene economicamente para Traumatologia, cual es el centro mas economico para Traumatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ]
+    },
+    {
+      "id": "plata-ranking-cardiologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "especialidad": "Cardiologia",
+        "opciones": 1,
+        "hospital_mas_economico": "Hospital Central",
+        "copago_minimo": 50,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Plata, Cardiologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Hospital Central con 50.00 USD mas un coaseguro del 30%. Preguntas que responde: donde me sale mas barato Cardiologia con el Plan Plata, que hospital me conviene economicamente para Cardiologia, cual es el centro mas economico para Cardiologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ]
+    },
+    {
+      "id": "plata-ranking-dermatologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "especialidad": "Dermatologia",
+        "opciones": 2,
+        "hospital_mas_economico": "Clinica Norte",
+        "copago_minimo": 30,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Plata, Dermatologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 30.00 USD mas un coaseguro del 20%, despues Hospital Central con 35.00 USD mas un coaseguro del 20%. Preguntas que responde: donde me sale mas barato Dermatologia con el Plan Plata, que hospital me conviene economicamente para Dermatologia, cual es el centro mas economico para Dermatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ]
+    },
+    {
+      "id": "plata-ranking-otorrinolaringologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "especialidad": "Otorrinolaringologia",
+        "opciones": 2,
+        "hospital_mas_economico": "Clinica Norte",
+        "copago_minimo": 26,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Plata, Otorrinolaringologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 26.00 USD mas un coaseguro del 20%, despues Hospital Central con 35.00 USD mas un coaseguro del 20%. Preguntas que responde: donde me sale mas barato Otorrinolaringologia con el Plan Plata, que hospital me conviene economicamente para Otorrinolaringologia, cual es el centro mas economico para Otorrinolaringologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ]
+    },
+    {
+      "id": "plata-ranking-ginecologia",
+      "tipo": "ranking",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "especialidad": "Ginecologia",
+        "opciones": 2,
+        "hospital_mas_economico": "Clinica Norte",
+        "copago_minimo": 25,
+        "moneda": "USD"
+      },
+      "contenido": "Plan Plata, Ginecologia, comparativa de precios entre los hospitales de la red. Ordenados de mas barato a mas caro: el mas economico es Clinica Norte con 25.00 USD mas un coaseguro del 10%, despues Hospital Central con 30.00 USD mas un coaseguro del 10%. Preguntas que responde: donde me sale mas barato Ginecologia con el Plan Plata, que hospital me conviene economicamente para Ginecologia, cual es el centro mas economico para Ginecologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Tabla de beneficios"
+        }
+      ]
+    },
+    {
+      "id": "plata-condicion-condiciones-generales-1",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Plata, Condiciones generales. El Plan Plata cubre consulta de medicina general sin referencia previa. Toda consulta de especialidad, incluida Ginecologia, requiere referencia del medico de cabecera emitida en los 90 dias anteriores a la cita.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Condiciones generales"
+        }
+      ]
+    },
+    {
+      "id": "plata-condicion-condiciones-generales-2",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Plata, Condiciones generales. El deducible anual es de 400 USD. Los copagos de consulta no consumen deducible, pero el coaseguro si.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Condiciones generales"
+        }
+      ]
+    },
+    {
+      "id": "plata-condicion-condiciones-generales-3",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Plata, Condiciones generales. Las enfermedades preexistentes declaradas quedan cubiertas tras una carencia de 18 meses desde el alta de la poliza.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Condiciones generales"
+        }
+      ]
+    },
+    {
+      "id": "plata-condicion-condiciones-generales-4",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Plata, Condiciones generales. Se considera urgencia todo cuadro que ponga en riesgo la vida o la funcion de un organo. En urgencia no se exige referencia. La atencion de urgencia fuera de la red se reembolsa al 50 por ciento y solo cuando el centro de la red mas cercano se encuentre a mas de 30 kilometros.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Condiciones generales"
+        }
+      ]
+    },
+    {
+      "id": "plata-condicion-condiciones-generales-5",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Condiciones generales"
+      },
+      "contenido": "Plan Plata, Condiciones generales. La preautorizacion, cuando se exige, debe solicitarse con al menos 72 horas de antelacion.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Condiciones generales"
+        }
+      ]
+    },
+    {
+      "id": "plata-condicion-red-de-proveedores-1",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Red de proveedores"
+      },
+      "contenido": "Plan Plata, Red de proveedores. El Hospital Sur no forma parte de la red del Plan Plata. La atencion en ese centro se considera fuera de red y no genera reembolso salvo urgencia vital.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Red de proveedores"
+        }
+      ]
+    },
+    {
+      "id": "plata-condicion-exclusiones-1",
+      "tipo": "condicion",
+      "metadata": {
+        "plan_id": "plata",
+        "plan": "Plan Plata",
+        "aseguradora": "Seguros Meridiano",
+        "seccion": "Exclusiones"
+      },
+      "contenido": "Plan Plata, Exclusiones. Ademas de las exclusiones generales del Plan Oro, el Plan Plata excluye la rehabilitacion de mas de 15 sesiones por episodio, la psicoterapia y los aparatos auditivos.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/polizas/plan-plata.md",
+          "seccion": "Exclusiones"
+        }
+      ]
+    }
+  ]
+}

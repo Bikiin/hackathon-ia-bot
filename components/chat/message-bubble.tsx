@@ -24,7 +24,7 @@ export function MessageBubble({ message }: MessageBubbleProps) {
         className={
           isUser
             ? "rounded-lg bg-zinc-900 px-3 py-2 text-sm text-zinc-50"
-            : "rounded-lg bg-zinc-100 px-3 py-2 text-sm text-zinc-900"
+            : "space-y-2 rounded-lg bg-zinc-100 px-3 py-2 text-sm text-zinc-900"
         }
       >
         {message.parts.map((part, index) => {
@@ -36,15 +36,18 @@ export function MessageBubble({ message }: MessageBubbleProps) {
             );
           }
 
-          if (
-            part.type === "tool-addResource" ||
-            part.type === "tool-getInformation"
-          ) {
+          if (part.type === "tool-buscar") {
             return (
               <ToolCall
                 key={index}
-                name={part.type}
-                isComplete={part.state === "output-available"}
+                tipo={part.input?.tipo}
+                consulta={part.input?.consulta}
+                resultados={
+                  part.state === "output-available"
+                    ? part.output.length
+                    : undefined
+                }
+                error={part.state === "output-error"}
               />
             );
           }

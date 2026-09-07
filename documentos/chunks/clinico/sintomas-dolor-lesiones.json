@@ -1,0 +1,292 @@
+{
+  "documento": {
+    "familia": "clinico",
+    "archivo": "sintomas-dolor-lesiones.md",
+    "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+    "hash": "sha256:b4a438496e46aeca",
+    "frontmatter": {
+      "tipo": "mapa-sintomas",
+      "ambito": "dolor-y-lesiones",
+      "version": "2026-01"
+    },
+    "generado": "2026-09-07T02:17:00.035Z"
+  },
+  "total": 17,
+  "porTipo": {
+    "sintoma": 17
+  },
+  "chunks": [
+    {
+      "id": "sintoma-dolor-y-lesiones-001",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Traumatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me duele la rodilla al caminar\". Especialidad sugerida: Traumatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-002",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Traumatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me torci el tobillo y se me hincho\". Especialidad sugerida: Traumatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-003",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Traumatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me duele la espalda baja desde que cargue peso\". Especialidad sugerida: Traumatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-004",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Traumatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"se me duerme la mano por las noches\". Especialidad sugerida: Traumatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-005",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Traumatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"tengo dolor en el hombro y no puedo levantar el brazo\". Especialidad sugerida: Traumatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-006",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Traumatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me caí y me duele la muñeca\". Especialidad sugerida: Traumatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-007",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Traumatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"llevo meses con dolor de cuello y contracturas\". Especialidad sugerida: Traumatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-008",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Traumatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me duele la cadera al levantarme de la silla\". Especialidad sugerida: Traumatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-009",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Traumatologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"tengo un tiron en la pierna desde que corri\". Especialidad sugerida: Traumatologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-010",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Urologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me arde cuando orino\". Especialidad sugerida: Urologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-011",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Urologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"voy al bano a cada rato y me duele\". Especialidad sugerida: Urologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-012",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Urologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"tengo ganas de orinar todo el tiempo pero sale poco\". Especialidad sugerida: Urologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-013",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Urologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"vi sangre en la orina\". Especialidad sugerida: Urologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-014",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Urologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me duele el costado y creo que son los rinones\". Especialidad sugerida: Urologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-015",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Urologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"tengo molestias al orinar desde hace unos dias\". Especialidad sugerida: Urologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-016",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Urologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"me cuesta empezar a orinar por las mananas\". Especialidad sugerida: Urologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    },
+    {
+      "id": "sintoma-dolor-y-lesiones-017",
+      "tipo": "sintoma",
+      "metadata": {
+        "ambito": "dolor-y-lesiones",
+        "especialidad": "Urologia",
+        "prioridad": "normal"
+      },
+      "contenido": "El paciente dice: \"tengo un bulto en los testiculos\". Especialidad sugerida: Urologia.",
+      "fuentes": [
+        {
+          "ruta": "documentos/insumos/clinico/sintomas-dolor-lesiones.md",
+          "seccion": "Frases de paciente"
+        }
+      ]
+    }
+  ]
+}

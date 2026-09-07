@@ -8,6 +8,20 @@
       "when": 1719997972944,
       "tag": "0000_yielding_bloodaxe",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788748505266,
+      "tag": "0001_familiar_randall",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788750580881,
+      "tag": "0002_pacientes_y_limpieza",
+      "breakpoints": true
     }
   ]
 }

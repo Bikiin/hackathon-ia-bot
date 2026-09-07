@@ -1,21 +1,35 @@
-import type { ChatToolName } from "@/lib/ai/types";
-
-const TOOL_LABELS: Record<ChatToolName, string> = {
-  "tool-addResource": "Guardando en la base de conocimiento",
-  "tool-getInformation": "Consultando la base de conocimiento",
+const ETIQUETAS: Record<string, string> = {
+  sintoma: "sintomas",
+  cobertura: "coberturas de tu plan",
+  ranking: "comparativa de precios",
+  condicion: "condiciones de tu poliza",
+  hospital: "hospitales",
 };
 
 type ToolCallProps = {
-  name: ChatToolName;
-  isComplete: boolean;
+  tipo: string | undefined;
+  consulta: string | undefined;
+  resultados: number | undefined;
+  error: boolean;
 };
 
-export function ToolCall({ name, isComplete }: ToolCallProps) {
-  const label = TOOL_LABELS[name];
+export function ToolCall({ tipo, consulta, resultados, error }: ToolCallProps) {
+  const donde = tipo ? (ETIQUETAS[tipo] ?? tipo) : "la base de conocimiento";
+
+  if (error) {
+    return (
+      <p className="text-xs text-red-600">
+        Fallo la busqueda en {donde}
+      </p>
+    );
+  }
 
   return (
     <p className="text-xs text-zinc-500">
-      {isComplete ? `${label}: listo` : `${label}...`}
+      {resultados === undefined
+        ? `Buscando en ${donde}`
+        : `Busco en ${donde}: ${resultados} resultado${resultados === 1 ? "" : "s"}`}
+      {consulta ? ` — "${consulta}"` : null}
     </p>
   );
 }
