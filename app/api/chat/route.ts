@@ -13,7 +13,7 @@ import type { ChatMessage } from "@/lib/ai/types";
 
 export const maxDuration = 30;
 
-const MAX_STEPS = 5;
+const MAX_STEPS = 12;
 
 export async function POST(request: Request) {
   const { messages }: { messages: ChatMessage[] } = await request.json();
