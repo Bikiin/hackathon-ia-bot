@@ -11,6 +11,7 @@ import { CHAT_MODEL, CHAT_PROVIDER_OPTIONS, MAX_STEPS } from "@/lib/ai/models";
 import { buildChatTools } from "@/lib/ai/tools";
 import type { ChatMessage } from "@/lib/ai/types";
 import { obtenerPaciente } from "@/lib/db/consultas";
+import { esCuotaAgotada } from "@/lib/reintentar";
 
 export const maxDuration = 30;
 
@@ -39,6 +40,12 @@ export async function POST(request: Request) {
   });
 
   return createUIMessageStreamResponse({
-    stream: toUIMessageStream({ stream: result.stream }),
+    stream: toUIMessageStream({
+      stream: result.stream,
+      onError: (error) =>
+        esCuotaAgotada(error)
+          ? "El proveedor de modelos rechazo la peticion por limite de uso. No es un fallo del asistente: espera un momento y vuelve a preguntar."
+          : "No se pudo completar la respuesta. Intentalo de nuevo.",
+    }),
   });
 }

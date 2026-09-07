@@ -37,7 +37,7 @@ export function Chat({ pacientes }: ChatProps) {
       <MessageList messages={messages} isBusy={isBusy} />
       {error ? (
         <p role="alert" className="px-4 pb-2 text-sm text-red-600">
-          No se pudo completar la respuesta. Intentalo de nuevo.
+          {error.message || "No se pudo completar la respuesta."}
         </p>
       ) : null}
       <ChatComposer
