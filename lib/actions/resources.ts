@@ -1,24 +1,43 @@
-'use server';
+"use server";
 
+import { embedContent } from "@/lib/ai/embedding";
+import { db } from "@/lib/db";
+import { embeddings } from "@/lib/db/schema/embeddings";
 import {
-  NewResourceParams,
   insertResourceSchema,
   resources,
-} from '@/lib/db/schema/resources';
-import { db } from '../db';
+  type NewResourceParams,
+} from "@/lib/db/schema/resources";
 
-export const createResource = async (input: NewResourceParams) => {
-  try {
-    const { content } = insertResourceSchema.parse(input);
+export async function createResource(
+  input: NewResourceParams,
+): Promise<string> {
+  const parsed = insertResourceSchema.safeParse(input);
 
-    const [resource] = await db
+  if (!parsed.success) {
+    return "El contenido no es valido.";
+  }
+
+  const chunks = await embedContent(parsed.data.content);
+
+  if (chunks.length === 0) {
+    return "El contenido no tiene texto indexable.";
+  }
+
+  await db.transaction(async (tx) => {
+    const [resource] = await tx
       .insert(resources)
-      .values({ content })
+      .values({ content: parsed.data.content })
       .returning();
 
-    return 'Resource successfully created.';
-  } catch (e) {
-    if (e instanceof Error)
-      return e.message.length > 0 ? e.message : 'Error, please try again.';
-  }
-};
+    await tx.insert(embeddings).values(
+      chunks.map((chunk) => ({
+        resourceId: resource.id,
+        content: chunk.content,
+        embedding: chunk.embedding,
+      })),
+    );
+  });
+
+  return "Recurso guardado en la base de conocimiento.";
+}
