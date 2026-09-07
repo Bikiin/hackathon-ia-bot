@@ -1,14 +1,33 @@
-# Vercel AI SDK RAG Guide Starter Project
+# hackathon-ia-bot
 
-This is the starter project for the Vercel AI SDK [Retrieval-Augmented Generation (RAG) guide](https://sdk.vercel.ai/docs/guides/rag-chatbot).
+Chatbot RAG sobre Next.js + Postgres con pgvector.
 
-In this project, you will build a chatbot that will only respond with information that it has within its knowledge base. The chatbot will be able to both store and retrieve information. This project has many interesting use cases from customer support through to building your own second brain!
+## Stack
 
-This project will use the following stack:
+- Next.js 14 (App Router)
+- AI SDK 7 via Vercel AI Gateway
+- Drizzle ORM + Postgres (Neon) con la extension `pgvector`
 
-- [Next.js](https://nextjs.org) 14 (App Router)
-- [Vercel AI SDK](https://sdk.vercel.ai/docs)
-- [OpenAI](https://openai.com)
-- [Drizzle ORM](https://orm.drizzle.team)
-- [Postgres](https://www.postgresql.org/) with [ pgvector ](https://github.com/pgvector/pgvector)
-- [shadcn-ui](https://ui.shadcn.com) and [TailwindCSS](https://tailwindcss.com) for styling
+## Arranque
+
+```bash
+pnpm install
+cp .env.example .env      # rellena DATABASE_URL
+pnpm db:push              # crea las tablas resources y embeddings
+pnpm dev
+```
+
+## Variables de entorno
+
+| Variable | Donde | Nota |
+|---|---|---|
+| `DATABASE_URL` | local y Vercel | Postgres de Neon (connection string con pooling) |
+| `AI_GATEWAY_API_KEY` | solo local | en Vercel el Gateway se autentica solo via OIDC |
+
+## Scripts
+
+| Comando | Que hace |
+|---|---|
+| `pnpm dev` | servidor de desarrollo |
+| `pnpm db:push` | sincroniza el esquema con la base de datos |
+| `pnpm db:studio` | explorador de la base de datos |

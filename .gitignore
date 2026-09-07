@@ -29,3 +29,6 @@ tsconfig.tsbuildinfo
 # rag starter
 .yarn/install-state.gz
 *.tsbuildinfo
+
+# claude code / estado de agentes
+.claude/
