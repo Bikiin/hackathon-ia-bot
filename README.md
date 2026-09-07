@@ -42,14 +42,12 @@ viaja cerrado dentro de la herramienta.
 
 ## Arranque
 
-```bash
-pnpm install
-pnpm db:migrate
-pnpm ingesta      # documentos -> chunks -> processed
-pnpm embeddings   # rellena los vectores
-pnpm cargar       # los proyecta a Postgres
-pnpm dev
-```
+1. `pnpm install`
+2. `pnpm db:migrate`
+3. `pnpm ingesta` — documentos a chunks y processed
+4. `pnpm embeddings` — rellena los vectores
+5. `pnpm cargar` — los proyecta a Postgres
+6. `pnpm dev`
 
 ## Estado
 
