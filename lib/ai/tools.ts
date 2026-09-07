@@ -1,25 +1,32 @@
 import { tool } from "ai";
 import { z } from "zod";
 
-import { createResource } from "@/lib/actions/resources";
+import { buscar } from "./busqueda";
 
-import { findRelevantContent } from "./embedding";
+const TIPOS = z.enum(["sintoma", "cobertura", "ranking", "condicion", "hospital"]);
 
-export const chatTools = {
-  addResource: tool({
-    description:
-      "Guarda informacion nueva en la base de conocimiento. Usalo cuando el usuario aporte un dato que deba recordarse.",
-    inputSchema: z.object({
-      content: z.string().describe("El contenido que hay que guardar"),
+export function buildChatTools(planId: string) {
+  return {
+    buscar: tool({
+      description: `Busca por significado en la base de conocimiento del paciente. Es tu unica fuente: si algo no aparece aqui, no lo sabes.
+
+Elige el tipo segun lo que necesites en ese momento:
+- sintoma: para pasar de lo que describe el paciente a una especialidad. Busca con sus mismas palabras.
+- cobertura: para el copago, el coaseguro y los requisitos de una especialidad en un hospital concreto. Busca nombrando la especialidad, no el sintoma.
+- ranking: para saber que hospital sale mas barato. Devuelve la comparativa ya ordenada.
+- condicion: para carencias, exclusiones, preexistencias, referencias, preautorizaciones y urgencias.
+- hospital: para direccion, horarios y que especialidades atiende un centro.
+
+Los tipos cobertura, ranking y condicion se filtran solos por el plan del paciente. Llamala tantas veces como haga falta y reformula la consulta si lo que vuelve no responde a lo que buscas.`,
+      inputSchema: z.object({
+        consulta: z
+          .string()
+          .describe("Lo que quieres encontrar, redactado como una frase"),
+        tipo: TIPOS.describe("Que clase de informacion buscas"),
+      }),
+      execute: ({ consulta, tipo }) => buscar({ consulta, tipo, planId }),
     }),
-    execute: ({ content }) => createResource({ content }),
-  }),
-  getInformation: tool({
-    description:
-      "Busca en la base de conocimiento la informacion necesaria para responder una pregunta.",
-    inputSchema: z.object({
-      question: z.string().describe("La pregunta del usuario"),
-    }),
-    execute: ({ question }) => findRelevantContent(question),
-  }),
-};
+  };
+}
+
+export type ChatTools = ReturnType<typeof buildChatTools>;

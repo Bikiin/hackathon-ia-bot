@@ -7,9 +7,34 @@ import { sql } from "drizzle-orm";
 
 import { db } from "@/lib/db";
 import { chunks, type NuevoChunk } from "@/lib/db/schema/chunks";
+import { pacientes } from "@/lib/db/schema/pacientes";
 import type { ArchivoProcesado } from "@/lib/ingesta/tipos";
 
 const PROCESSED = "documentos/processed";
+
+const PACIENTES = [
+  {
+    id: "ana",
+    nombre: "Ana Rivera",
+    numeroAfiliado: "MER-004182",
+    planId: "oro",
+    plan: "Plan Oro",
+  },
+  {
+    id: "luis",
+    nombre: "Luis Medina",
+    numeroAfiliado: "MER-011907",
+    planId: "plata",
+    plan: "Plan Plata",
+  },
+  {
+    id: "carmen",
+    nombre: "Carmen Soto",
+    numeroAfiliado: "MER-027455",
+    planId: "bronce",
+    plan: "Plan Bronce",
+  },
+];
 const TAMANO_LOTE = 40;
 
 function leerTodos(): { archivo: string; datos: ArchivoProcesado }[] {
@@ -81,6 +106,21 @@ async function main(): Promise<void> {
 
     console.log(`  ${Math.min(inicio + TAMANO_LOTE, filas.length)}/${filas.length}`);
   }
+
+  await db
+    .insert(pacientes)
+    .values(PACIENTES)
+    .onConflictDoUpdate({
+      target: pacientes.id,
+      set: {
+        nombre: sql`excluded.nombre`,
+        numeroAfiliado: sql`excluded.numero_afiliado`,
+        planId: sql`excluded.plan_id`,
+        plan: sql`excluded.plan`,
+      },
+    });
+
+  console.log(`${PACIENTES.length} pacientes`);
 
   const resumen = await db
     .select({ tipo: chunks.tipo, total: sql<number>`count(*)::int` })

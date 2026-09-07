@@ -1,9 +1,7 @@
 import type { InferUITools, UIDataTypes, UIMessage } from "ai";
 
-import type { chatTools } from "./tools";
+import type { buildChatTools } from "./tools";
 
-export type ChatTools = InferUITools<typeof chatTools>;
+export type ChatTools = InferUITools<ReturnType<typeof buildChatTools>>;
 
 export type ChatMessage = UIMessage<never, UIDataTypes, ChatTools>;
-
-export type ChatToolName = `tool-${keyof ChatTools & string}`;
